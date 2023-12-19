@@ -1,0 +1,790 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FCFCF7;
+}
+
+hr {
+  width: 90%;
+  height: 2px;
+  background-color: #7c7a7a;
+  border: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+  padding: 10px;
+  background-color: #25282A;
+}
+header .imagenLogotipo {
+  width: 200px;
+}
+
+main {
+  background-image: url(../img/principal.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 50px;
+}
+main .principal {
+  width: 90%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+main .principal .principal1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .principal .principal1 .textPrincipal {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Desplazamiento horizontal, desplazamiento vertical, desenfoque y color de la sombra */
+}
+main .principal .principal1 .logotipoH1 {
+  filter: drop-shadow(10px 8px 6px black);
+  padding-bottom: 10px;
+}
+main .principal .principal1 .btnPrincipal a {
+  font-family: "Hanken Grotesk", sans-serif;
+  text-decoration: none;
+  color: #bfbebe;
+}
+
+.clientes {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.clientes h4 p {
+  text-align: center;
+  padding-left: 20px;
+  color: #25282A;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.clientes .clientes1 {
+  padding: 30px;
+}
+.clientes .clientes1 .cliente {
+  padding: 10px;
+}
+.clientes .clientes1 img {
+  filter: grayscale(0.8);
+}
+
+.cliente img:hover {
+  filter: grayscale(0);
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
+
+.quienesSomos {
+  background-image: url(../img/quienesSomos.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.quienesSomos .quienesSomos1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.quienesSomos .quienesSomos1 .quienesSomosH2 {
+  color: whitesmoke;
+}
+.quienesSomos .quienesSomos1 .presentacion {
+  color: whitesmoke;
+  width: 100%;
+}
+
+.nosotras1 {
+  padding: 30px;
+  margin-top: auto;
+  margin-right: auto;
+}
+.nosotras1 .laura {
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 9px 32px -1px rgba(0, 0, 0, 0.7);
+}
+.nosotras1 .laura .lauraTexto h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+.nosotras1 .laura h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.nosotras1 .laura p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.nosotras1 .laura .lauraFoto {
+  padding: 80px;
+}
+.nosotras1 .sol {
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 9px 32px -1px rgba(0, 0, 0, 0.3);
+}
+.nosotras1 .sol .solTexto h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+.nosotras1 .sol h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.nosotras1 .sol p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.nosotras1 .sol .solFoto {
+  padding: 80px;
+}
+
+.contacto {
+  background-image: url(../img/imagenFormulario_Desenfoque.jpg);
+  background-size: cover;
+}
+.contacto .contacto1 {
+  /*  div {
+          .imagenFormulario {
+              display:none;
+              }
+          } */
+}
+.contacto .contacto1 .formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contacto .contacto1 .formulario div img {
+  width: 125px;
+}
+.contacto .contacto1 .formulario div ul {
+  padding: 10px;
+}
+.contacto .contacto1 .formulario div ul li {
+  list-style: none;
+}
+.contacto .contacto1 .formulario div ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #222223;
+  font-weight: 600;
+}
+.contacto .contacto1 .formulario div ul li a:hover {
+  color: #bfbebe;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/*Boton Volver Arriba*/
+.btn-volver-arriba {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 30%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99999;
+  margin-right: -60px;
+  transition: all 0.4s ease;
+}
+
+.btn-volver-arriba a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 30%;
+  text-align: center;
+}
+
+.btn-volver-arriba a i {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 40px;
+}
+
+/*efecto borde*/
+/*loading index*/
+.loading {
+  height: 2px;
+  background-color: #f44c28;
+}
+
+@keyframes movingLeft {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 80%;
+  }
+}
+.loading {
+  animation-name: movingLeft;
+  animation-duration: 10s;
+  animation-iteration-count: 3;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+.portfolio {
+  background-image: url(../img/queHacemos.jpg);
+  background-size: cover;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio h1 {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 3mm;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+/*loading Portfolio*/
+.portfolioLoading {
+  height: 2px;
+  background-color: #f44c28;
+}
+
+@keyframes movingLeftP {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
+  }
+}
+.portfolioLoading {
+  animation-name: movingLeftP;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+.card {
+  border-color: #7c7a7a;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.7s;
+  border-color: #f44c28;
+}
+
+.modal-dialog {
+  max-width: 800px;
+}
+
+.modal-title a:hover {
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.5s;
+  color: #f44c28;
+}
+
+.carousel-control-prev-icon:hover {
+  transform: rotate(-360deg);
+  transition: 0.8s;
+}
+
+.carousel-control-next-icon:hover {
+  transform: rotate(360deg);
+  transition: 0.8s;
+}
+
+.carousel-control-prev i {
+  color: #222223;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.carousel-control-prev i:hover {
+  transform: rotate(-360deg);
+  transition: 0.8s;
+}
+
+.carousel-control-next i {
+  color: #222223;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.carousel-control-next i:hover {
+  transform: rotate(360deg);
+  transition: 0.8s;
+}
+
+.estudio {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #e40434;
+  letter-spacing: -1px;
+  font-size: 22px;
+}
+
+.rec {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -1px;
+  font-size: 22px;
+}
+
+/*Pantalla celular*/
+@media only screen and (min-width: 320px) {
+  .principal1 h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 700;
+  }
+  .principal1 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 500;
+  }
+  h2 {
+    color: #25282A;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px;
+  }
+  h2:hover {
+    color: #7c7a7a;
+  }
+  .comoFunciona .comoFuncionaH2 {
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px;
+  }
+  .comoFunciona .comoFunciona1 {
+    padding: 20px;
+  }
+  .comoFunciona .comoFunciona1 div img {
+    padding-bottom: 20px;
+  }
+  .comoFuncionaH2:hover {
+    color: #7c7a7a;
+  }
+  .queHacemos {
+    padding-top: 30px;
+    width: 100%;
+  }
+  .queHacemos .queHacemos1 div img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .queHacemos .queHacemos1 div .trabajos {
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  .queHacemos .queHacemos1 div .trabajos li {
+    list-style: none;
+    padding: 10px;
+    background-color: #bfbebe;
+    margin-bottom: 10px;
+    box-shadow: 6px 6px 0px 0px rgb(34, 34, 35);
+  }
+  .queHacemos .queHacemos1 div .trabajos li a {
+    text-decoration: none;
+    color: #222223;
+  }
+  .trabajos li:hover {
+    transform: translateX(3px);
+    transition: 0.3s;
+  }
+  .presentacion {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+  }
+  .funcionamos {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+    color: white;
+  }
+  .contacto {
+    background-image: url(../img/imagenFormulario_Desenfoque.jpg);
+    background-size: cover;
+  }
+  .contacto .contacto1 {
+    /*    div {
+              .imagenFormulario {
+                  display:none;
+                  }
+              } */
+  }
+  .contacto .contacto1 .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contacto .contacto1 .formulario div img {
+    width: 150px;
+  }
+  .contacto .contacto1 .formulario div ul {
+    padding: 10px;
+  }
+  .contacto .contacto1 .formulario div ul li {
+    list-style: none;
+  }
+  .contacto .contacto1 .formulario div ul li a {
+    text-decoration: none;
+    text-align: left;
+    font-size: 16px;
+    color: #222223;
+  }
+  .contacto .contacto1 .formulario div ul li a:hover {
+    color: #bfbebe;
+    font-weight: 500;
+    text-decoration: none;
+  }
+}
+/*Pantalla tablet*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .principal1 h1 {
+    font-size: 60px;
+  }
+  .principal1 p {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h2:hover {
+    color: #7c7a7a;
+  }
+  .comoFuncionaH2 {
+    font-size: 50px;
+  }
+  .contacto {
+    background-image: url(../img/imagenFormulario_Desenfoque.jpg);
+    background-size: cover;
+  }
+  .contacto .contacto1 {
+    /* div {
+              .imagenFormulario {
+                  display:none;
+                  }
+              } */
+  }
+  .contacto .contacto1 .formulario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  .contacto .contacto1 .formulario div {
+    width: 30%;
+  }
+  .contacto .contacto1 .formulario div img {
+    width: 200px;
+  }
+  .contacto .contacto1 .formulario div {
+    width: 50%;
+  }
+  .contacto .contacto1 .formulario div ul {
+    padding: 10px;
+    border-left-style: solid;
+    border-left-color: #f44c28;
+    border-left-width: 2px;
+  }
+  .contacto .contacto1 .formulario div ul li {
+    list-style: none;
+  }
+  .contacto .contacto1 .formulario div ul li a {
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;
+    color: #222223;
+  }
+  .contacto .contacto1 .formulario div ul li a:hover {
+    color: #bfbebe;
+    font-weight: 500;
+    text-decoration: none;
+  }
+}
+/*Pantalla notebook*/
+@media only screen and (min-width: 768px) {
+  .principal1 h1 {
+    font-size: 90px;
+  }
+  .principal1 p {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h2:hover {
+    color: #7c7a7a;
+  }
+  .queHacemos {
+    padding-top: 30px;
+    width: 100%;
+  }
+  .queHacemos .queHacemos1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .queHacemos .queHacemos1 div {
+    width: 45%;
+  }
+  .queHacemos .queHacemos1 .trabajos {
+    font-size: 18px;
+    text-align: left;
+  }
+  .comoFunciona {
+    padding-top: 30px;
+    width: 100%;
+  }
+  .comoFunciona .comoFuncionaH2 {
+    font-size: 50px;
+  }
+  .comoFunciona .comoFunciona1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+  }
+  .comoFunciona .comoFunciona1 div {
+    width: 45%;
+  }
+  .comoFunciona .comoFunciona1 div {
+    width: 45%;
+  }
+  .comoFuncionaH2:hover {
+    color: #7c7a7a;
+  }
+  .presentacion {
+    font-size: 18px;
+  }
+  .contacto {
+    background-image: url(../img/imagenFormulario_Desenfoque.jpg);
+    background-size: cover;
+  }
+  .contacto .contacto1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*    div {
+          width: 40%;
+          .imagenFormulario {
+              display:block;
+              padding-bottom: 20px;
+              }
+          } */
+  }
+  .contacto .contacto1 .formulario {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+  .contacto .contacto1 .formulario div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+  }
+  .contacto .contacto1 .formulario div img {
+    width: 200px;
+  }
+  .contacto .contacto1 .formulario div {
+    width: 45%;
+  }
+  .contacto .contacto1 .formulario div ul {
+    padding-left: 130px;
+  }
+  .contacto .contacto1 .formulario div ul li {
+    list-style: none;
+  }
+  .contacto .contacto1 .formulario div ul li a {
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;
+    color: #222223;
+  }
+  .contacto .contacto1 .formulario div ul li a:hover {
+    color: #bfbebe;
+    font-weight: 500;
+    text-decoration: none;
+  }
+}
+/*Pantalla Desktop*/
+@media only screen and (min-width: 992px) {
+  .principal1 h1 {
+    font-size: 120px;
+  }
+  .principal1 p {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h2:hover {
+    color: #7c7a7a;
+  }
+  .comoFuncionaH2 {
+    font-size: 50px;
+  }
+}
+.menu ul {
+  margin: 5px;
+}
+.menu ul li {
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px;
+}
+.menu ul li a {
+  font-size: 10px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #f44c28;
+  font-weight: 600;
+  transition: 1s;
+}
+
+.menuRedes li a {
+  color: white;
+}
+
+.menuRedes li a:hover {
+  transform: scale(1.4);
+  color: #f44c28;
+  transition: 0.7s ease-in-out;
+}
+
+.menuRedes li .correo:hover {
+  transform: rotate(360deg);
+  transition: 1.5s ease-in-out;
+}
+
+footer {
+  background-color: #222223;
+}
+footer div {
+  font-size: 18px;
+  color: #bfbebe;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  padding-top: 20px;
+}
+footer div a {
+  display: inline;
+  text-decoration: none;
+  color: #bfbebe;
+}
+footer div a:hover {
+  color: #f44c28;
+  font-weight: 500;
+  text-decoration: none;
+}
+footer .menuRedesFooter ul {
+  padding: 20px;
+}
+footer .menuRedesFooter ul li {
+  list-style: none;
+}
+footer .menuRedesFooter ul li i {
+  padding: 5px;
+  color: #bfbebe;
+  font-size: 25px;
+}
+footer .firma {
+  font-size: 14px;
+  color: #bfbebe;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+
+.menuRedesFooter i:hover {
+  transform: scale(1.8);
+  transition: all 0.7s ease-in-out;
+}
+
+.menuRedesFooter li .correo:hover {
+  transform: rotate(360deg);
+  transition: 1.3s ease-in-out;
+}/*# sourceMappingURL=estilos.css.map */
