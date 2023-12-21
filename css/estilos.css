@@ -16,16 +16,6 @@ body {
   background-color: #FCFCF7;
 }
 
-hr {
-  width: 90%;
-  height: 2px;
-  background-color: #7c7a7a;
-  border: none;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-
 header .topBar {
   display: none;
 }
@@ -42,7 +32,7 @@ header .showMenu .navBarCelu {
   background-color: #25282A;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   height: 100vh;
   width: 100%;
   position: fixed;
@@ -50,9 +40,23 @@ header .showMenu .navBarCelu {
   animation: slideInFromLeft 0.5s ease-in-out;
 }
 
+header .showMenu .navBarCelu .imgLogotipo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 15vh;
+}
 header .showMenu .navBarCelu img {
   width: 200px;
+  
   padding-left: 10px;
+}
+header .showMenu .navBarCelu .itemsMenuCelu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 60vh;
+    
 }
 
 header .showMenu .navBarCelu a {
@@ -60,7 +64,7 @@ header .showMenu .navBarCelu a {
   text-transform: uppercase;
   text-decoration: none;
   color: #FCFCF7;
-  font-size: 30px;
+  font-size: 22px;
   padding-left: 10px;
 }
 
@@ -68,6 +72,12 @@ header .showMenu .navBarCelu .navBarRRSS {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  
+  height: 20vh;
 }
 
 header .showMenu .navBarCelu a:hover {
@@ -78,9 +88,10 @@ header .showMenu .navBarCelu a:hover {
 header .showMenu .navBarCelu .navBarRRSS a {
   text-decoration: none;
   color: #FCFCF7;
-  font-size: 30px;
+  font-size: 25px;
   padding-left: 20px;
   padding-right: 20px;
+  
 }
 
 header .showMenu .navBarCelu .navBarRRSS a:hover {
@@ -90,8 +101,8 @@ header .showMenu .navBarCelu .navBarRRSS a:hover {
 
 /* MENU BOTÓN TOGGLE */
 header .toggle {
-  width: 70px;
-  height: 70px;
+  width: 60px;  /* reducido en 10px */
+  height: 60px; /* reducido en 10px */
   background: #FCFCF7;
   display: flex;
   flex-direction: column;
@@ -99,8 +110,8 @@ header .toggle {
   align-items: center;
   cursor: pointer;
   position: fixed;
-  right: 30px;
-  top: 30px;
+  right: 25px;
+  top: 25px;
   overflow: hidden;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
   border-radius: 50%;
@@ -326,14 +337,6 @@ main .principal .principal1 .btnPrincipal a {
 .contacto {
   background-image: url(../img/imagenFormulario_Desenfoque.jpg);
   background-size: cover;
-}
-
-.contacto .contacto1 {
-  /*  div {
-          .imagenFormulario {
-              display:none;
-              }
-          } */
 }
 
 .contacto .contacto1 .formulario {
@@ -644,13 +647,7 @@ main .principal .principal1 .btnPrincipal a {
     background-size: cover;
   }
 
-  .contacto .contacto1 {
-    /*    div {
-              .imagenFormulario {
-                  display:none;
-                  }
-              } */
-  }
+
 
   .contacto .contacto1 .formulario {
     display: flex;
@@ -710,14 +707,6 @@ main .principal .principal1 .btnPrincipal a {
   .contacto {
     background-image: url(../img/imagenFormulario_Desenfoque.jpg);
     background-size: cover;
-  }
-
-  .contacto .contacto1 {
-    /* div {
-              .imagenFormulario {
-                  display:none;
-                  }
-              } */
   }
 
   .contacto .contacto1 .formulario {
