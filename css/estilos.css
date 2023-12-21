@@ -174,7 +174,7 @@ header .toggle {
 main {
   background-image: url(../img/estudioRecPrincipal.png);
   background-size: cover;
-  background-position: center;
+  background-position: left;
   height: 100vh;
   padding-top: 50px;
 }
@@ -212,7 +212,7 @@ main .principal .principal1 .textPrincipal {
 }
 
 main .principal .principal1 .logotipoH1 {
-  filter: drop-shadow(4px 8px 6px black);
+  filter: drop-shadow(3px 5px 6px black);
   padding-bottom: 10px;
 
 }
@@ -222,6 +222,58 @@ main .principal .principal1 .btnPrincipal a {
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
   color: #bfbebe;
+}
+
+/* QUE HACEMOS */
+
+.contenedorQueHacemos {
+  padding-top: 30px;
+  width: 100%;
+}
+
+.contenedorQueHacemos h2 {
+  font-family: 'Poppins', sans-serif; 
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+}
+
+.contenedorQueHacemos .contenidoQueHacemos .contenedorImgQueHacemos {
+  width: 90%;
+  margin: 0 auto;
+}
+.contenedorQueHacemos .contenidoQueHacemos .contenedorImgQueHacemos .imgQueHacemos {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.contenedorQueHacemos .contenidoQueHacemos div {
+width: 90%;
+  margin: 0 auto;
+}
+.contenedorQueHacemos .contenidoQueHacemos div .trabajos {
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  padding-bottom: 20px;
+  }
+
+.contenedorQueHacemos .contenidoQueHacemos div .trabajos li {
+  list-style: none;
+  padding: 5px;
+  background-color: #bfbebe;
+  margin-bottom: 10px;
+  box-shadow: 6px 6px 0px 0px rgb(34, 34, 35);
+}
+
+.contenedorQueHacemos .contenidoQueHacemos div .trabajos li a {
+  text-decoration: none;
+  color: #222223;
+}
+
+.trabajos li:hover {
+  transform: translateX(3px);
+  transition: 0.3s;
 }
 
 .clientes {
@@ -591,44 +643,7 @@ main .principal .principal1 .btnPrincipal a {
     color: #7c7a7a;
   }
 
-  .queHacemos {
-    padding-top: 30px;
-    width: 100%;
-  }
-
-  .queHacemos .queHacemos1 div img {
-    -o-object-fit: cover;
-    object-fit: cover;
-    width: 100%;
-    padding-bottom: 30px;
-  }
-
-  .queHacemos .queHacemos1 div .trabajos {
-    text-align: left;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    padding: 10px;
-    padding-bottom: 20px;
-  }
-
-  .queHacemos .queHacemos1 div .trabajos li {
-    list-style: none;
-    padding: 10px;
-    background-color: #bfbebe;
-    margin-bottom: 10px;
-    box-shadow: 6px 6px 0px 0px rgb(34, 34, 35);
-  }
-
-  .queHacemos .queHacemos1 div .trabajos li a {
-    text-decoration: none;
-    color: #222223;
-  }
-
-  .trabajos li:hover {
-    transform: translateX(3px);
-    transition: 0.3s;
-  }
-
+  
   .presentacion {
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -994,6 +1009,9 @@ h2:hover {
     }
   }
   /* MAIN */
+
+  main {
+    background: linear-gradient(90deg, rgba(252,252,247,0.8071603641456583) 0%, rgba(252,252,247,0.16290266106442575) 36%), url('../img/estudioRecPrincipal.png');  }
 
   main .principal .principal1 {
     align-items: flex-start;
