@@ -86,7 +86,7 @@ header .showMenu .navBarCelu .navBarRRSS {
 
 header .showMenu .navBarCelu a:hover {
   transition: 0.2s;
-  color: #e40434;
+  color: #E20034;
 }
 
 header .showMenu .navBarCelu .navBarRRSS a {
@@ -100,7 +100,7 @@ header .showMenu .navBarCelu .navBarRRSS a {
 
 header .showMenu .navBarCelu .navBarRRSS a:hover {
   transition: 0.2s;
-  color: #e40434;
+  color: #E20034;
 }
 
 /* MENU BOTÓN TOGGLE */
@@ -129,7 +129,7 @@ header .toggle {
   position: relative;
   width: 40px;
   height: 4px;
-  background: #e40434;
+  background: #E20034;
   border-radius: 10px;
   transition: 0.5s;
   ;
@@ -213,7 +213,7 @@ main .principal .principal1 .textPrincipal {
 }
 
 main .principal .principal1 .logotipoH1 {
-  filter: drop-shadow(3px 5px 6px black);
+  filter: drop-shadow(3px 5px 6px #7c7a7a);
   padding-bottom: 10px;
 
 }
@@ -477,7 +477,7 @@ main .principal .principal1 .btnPrincipal a {
 /*loading index*/
 .loading {
   height: 2px;
-  background-color: #e40434;
+  background-color: #E20034;
 }
 
 @keyframes movingLeft {
@@ -519,7 +519,7 @@ main .principal .principal1 .btnPrincipal a {
 /*loading Portfolio*/
 .portfolioLoading {
   height: 2px;
-  background-color: #e40434;
+  background-color: #E20034;
 }
 
 @keyframes movingLeftP {
@@ -548,7 +548,7 @@ main .principal .principal1 .btnPrincipal a {
 .card:hover {
   transform: scale(1.02);
   transition: 0.7s;
-  border-color: #e40434;
+  border-color: #E20034;
 }
 
 .modal-dialog {
@@ -559,7 +559,7 @@ main .principal .principal1 .btnPrincipal a {
   font-weight: 600;
   text-decoration: none;
   transition: 0.5s;
-  color: #e40434;
+  color: #E20034;
 }
 
 .carousel-control-prev-icon:hover {
@@ -597,7 +597,7 @@ main .principal .principal1 .btnPrincipal a {
 .estudio {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  color: #e40434;
+  color: #E20034;
   letter-spacing: -1px;
   font-size: 22px;
 }
@@ -765,7 +765,7 @@ main .principal .principal1 .textPrincipal {
   .contacto .contacto1 .formulario div ul {
     padding: 10px;
     border-left-style: solid;
-    border-left-color: #e40434;
+    border-left-color: #E20034;
     border-left-width: 2px;
   }
 
@@ -1020,10 +1020,10 @@ h2:hover {
   .itemMenu:hover {
     font-weight: 600;
     transition: 0.2s;
-    color: #e40434;
+    color: #E20034;
     border-bottom-style: solid;
     border-bottom-width: 0.3px;
-    border-bottom-color: #e40434;
+    border-bottom-color: #E20034;
   }
 
   .containerNavBar {
@@ -1145,7 +1145,7 @@ footer div a {
 }
 
 footer div a:hover {
-  color: #e40434;
+  color: #E20034;
   font-weight: 500;
   text-decoration: none;
 }
