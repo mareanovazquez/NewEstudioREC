@@ -14,7 +14,7 @@ html {
 
 body {
   background-color: #FCFCF7;
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'Poppins', sans-serif;
   color: #222223;
 }
 
@@ -233,7 +233,7 @@ main .principal .principal1 .btnPrincipal a {
 }
 
 .contenedorQueHacemos h2 {
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-size: 30px;
   text-align: center;
@@ -243,27 +243,29 @@ main .principal .principal1 .btnPrincipal a {
 .contenedorQueHacemos .contenidoQueHacemos .contenedorImgQueHacemos {
   width: 90%;
   margin: 0 auto;
-  
+
 }
+
 .contenedorQueHacemos .contenidoQueHacemos .contenedorImgQueHacemos .imgQueHacemos {
   width: 100%;
   border-radius: 5px;
-  }
+}
 
 .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos {
   width: 90%;
   margin: 0 auto;
 }
+
 .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos {
   text-align: left;
   padding: 10px;
   padding-bottom: 20px;
-  }
+}
 
 .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li {
   list-style: none;
   padding: 5px;
-  background-color: rgba(252, 252, 247, 0.8);
+  background-color: rgba(252, 252, 247, 0.9);
   font-size: 16px;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -647,7 +649,7 @@ main .principal .principal1 .btnPrincipal a {
     color: #7c7a7a;
   }
 
-  
+
   .presentacion {
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -708,7 +710,7 @@ main .principal .principal1 .btnPrincipal a {
 @media (min-width: 768px) {
 
   .contenedorQueHacemos {
-    
+
     background-image: url('../img/queHacemos.jpg');
     background-size: cover;
     background-position: center;
@@ -724,7 +726,7 @@ main .principal .principal1 .btnPrincipal a {
     font-size: 40px;
   }
 
-  
+
   .contenedorQueHacemos .contenidoQueHacemos .contenedorImgQueHacemos .imgQueHacemos {
     display: none;
   }
@@ -929,7 +931,7 @@ h2:hover {
 /*Pantalla Desktop*/
 @media (min-width: 992px) {
 
-/* TOPBAR */
+  /* TOPBAR */
   header .topBar {
     /* disposición del contenido del topbar */
     display: flex;
@@ -953,7 +955,7 @@ h2:hover {
 
   /* NAVBAR */
   header .navBar {
-    background-color: #25282A;
+    background-color: transparent;
     height: 50px;
     width: 100%;
     display: flex;
@@ -976,14 +978,24 @@ h2:hover {
     align-items: center;
     flex-wrap: wrap;
     padding-right: 20px;
-  }
+    }
 
   header .navBar div img {
-    width: 150px;
+    width: 200px;
     padding-left: 20px;
 
   }
+  header .navBar a {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #222223;
+    font-weight: 800;
+  }
 
+  #imgLogotipoGris {
+    display: none;
+  }
   header .fixed {
     position: fixed;
     top: 0;
@@ -999,22 +1011,22 @@ h2:hover {
     animation: slideDown 0.7s ease;
   }
 
-  header .navBar a {
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
+  header .fixed a {
     color: #FCFCF7;
-    
   }
+
 
   header .toggle {
     display: none;
   }
 
   .itemMenu:hover {
-    font-weight: 400;
+    font-weight: 800;
     transition: 0.2s;
     color: #e40434;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3px;
+    border-bottom-color: #e40434;
   }
 
   .containerNavBar {
@@ -1030,10 +1042,16 @@ h2:hover {
       transform: translateY(0);
     }
   }
+
   /* MAIN */
 
   main {
-    background: linear-gradient(90deg, rgba(252,252,247,0.8071603641456583) 0%, rgba(252,252,247,0.16290266106442575) 36%), url('../img/estudioRecPrincipal.png');  }
+    background: linear-gradient(90deg, rgba(252, 252, 247, 0.8071603641456583) 0%, rgba(252, 252, 247, 0.16290266106442575) 36%), url('../img/estudioRecPrincipal.png');
+    position: relative;
+    z-index: -2;
+    top: -50px;
+    left: 0;
+  }
 
   main .principal .principal1 {
     align-items: flex-start;
@@ -1047,7 +1065,25 @@ h2:hover {
   main .principal .principal1 .logotipoH1 {
     display: none;
   }
+
+  /* QUÉ HACEMOS */
+  .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos {
+    width: 50%;
+    margin: 0 auto;
   }
+
+  .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li {
+    font-size: 18px;
+  }
+
+
+
+}
 
 
 /*ANIMATIONS*/
@@ -1091,6 +1127,7 @@ h2:hover {
   }
 }
 
+/* QUÉ HACEMOS */
 
 footer {
   background-color: #222223;
