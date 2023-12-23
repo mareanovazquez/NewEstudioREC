@@ -282,6 +282,7 @@ main .principal .principal1 .btnPrincipal a {
   transition: 0.3s;
 }
 
+/* CLIENTES */
 .clientes {
   padding-top: 40px;
   padding-bottom: 50px;
@@ -314,98 +315,149 @@ main .principal .principal1 .btnPrincipal a {
   transition: 0.5s ease-in-out;
 }
 
-.quienesSomos {
-  background-image: url(../img/quienesSomos.jpg);
-  height: 100vh;
+/* QUIENES SOMOS */
+
+.contenedorQuienesSomos {
+  border: 2px solid black; /*eliminar después de ubicar elementos*/
+  /* background-image: url(../img/quienesSomos.jpg);
   background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.quienesSomos .quienesSomos1 {
-  background-color: rgba(0, 0, 0, 0.6);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.quienesSomos .quienesSomos1 .quienesSomosH2 {
-  color: whitesmoke;
-}
-
-.quienesSomos .quienesSomos1 .presentacion {
-  color: whitesmoke;
-  width: 100%;
-}
-
-.nosotras1 {
-  padding: 30px;
-  margin-top: auto;
+  background-size: cover; agregar después de ubicar elementos*/
+  width: 90%;
+  margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.nosotras1 .laura {
+.contenedorQuienesSomos .contenidoQuienesSomos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.contenedorQuienesSomos .contenidoQuienesSomos  .quienesSomosH2 {
+  font-family: 'Poppins', sans-serif;
+  color: #222223;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.contenedorQuienesSomos .contenidoQuienesSomos  .presentacion {
+  font-family: 'Poppins', sans-serif;
+  color: #222223;
+  width: 100%;
+  text-align: center;
+}
+
+.contenedorQuienesSomos .contenidoNosotras {
+ width: 90%;
+ margin: 0 auto;
+}
+
+.contenedorQuienesSomos .contenidoNosotras .laura {
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0px 9px 32px -1px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.nosotras1 .laura .lauraTexto h3 {
+.contenedorQuienesSomos .contenidoNosotras .laura .lauraFoto img {
+  width: 100%;
+  border-radius: 50%;
+  padding: 40px;
+  }
+
+.contenedorQuienesSomos .contenidoNosotras .laura .lauraTexto h3 {
+  padding-top: 10px;
   font-family: "Open Sans", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   font-weight: 600;
 }
 
-.nosotras1 .laura h4 {
+.contenedorQuienesSomos .contenidoNosotras .laura p {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
 }
 
-.nosotras1 .laura p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  text-align: center;
+.contenedorQuienesSomos .contenidoNosotras .laura .lauraRRSS {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contenedorQuienesSomos .contenidoNosotras .laura .lauraRRSS a {
+  text-decoration: none;
+  color: #222223;
 }
 
-.nosotras1 .laura .lauraFoto {
-  padding: 80px;
+.contenedorQuienesSomos .contenidoNosotras .laura .lauraRRSS a:hover {
+  color: #E20034;
 }
 
-.nosotras1 .sol {
+
+
+.contenedorQuienesSomos .contenidoNosotras .sol {
   border-radius: 5px;
   padding: 10px;
-  box-shadow: 0px 9px 32px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 9px 32px -1px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.nosotras1 .sol .solTexto h3 {
+.contenedorQuienesSomos .contenidoNosotras .sol .solFoto img {
+  width: 100%;
+  border-radius: 50%;
+  padding: 40px;
+}
+
+.contenedorQuienesSomos .contenidoNosotras .sol .solTexto h3 {
+  padding-top: 10px;
   font-family: "Open Sans", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   font-weight: 600;
 }
 
-.nosotras1 .sol h4 {
+.contenedorQuienesSomos .contenidoNosotras .sol p {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
 }
 
-.nosotras1 .sol p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  text-align: center;
+.contenedorQuienesSomos .contenidoNosotras .sol .solRRSS {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contenedorQuienesSomos .contenidoNosotras .sol .solRRSS a {
+  text-decoration: none;
+  color: #222223;
 }
 
-.nosotras1 .sol .solFoto {
-  padding: 80px;
+.contenedorQuienesSomos .contenidoNosotras .sol .solRRSS a:hover {
+  color: #E20034;
 }
+
+
 
 .contacto {
   background-image: url(../img/imagenFormulario_Desenfoque.jpg);
@@ -733,6 +785,22 @@ main .principal .principal1 .textPrincipal {
     margin: 0 auto;
   }
 
+
+  .contenedorQuienesSomos .contenidoNosotras {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+
+  }
+
+  .contenedorQuienesSomos .contenidoNosotras .laura {
+    width: 40%;
+  }
+  .contenedorQuienesSomos .contenidoNosotras .sol {
+    width: 40%;
+  }
   .comoFuncionaH2 {
     font-size: 50px;
   }
@@ -800,9 +868,6 @@ h2 {
   font-size: 50px;
 }
 
-h2:hover {
-  color: #7c7a7a;
-}
 
 .queHacemos {
   padding-top: 30px;
@@ -1064,6 +1129,11 @@ h2:hover {
   }
 
   /* QUÉ HACEMOS */
+
+  .contenedorQueHacemos h2 {
+    padding-top: 20px;
+    font-size: 50px;
+  }
   .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos {
     width: 50%;
     margin: 0 auto;

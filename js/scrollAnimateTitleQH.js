@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener('scroll', function(){
         let queHacemosOffSetTop = document.getElementById('principal').offsetTop;
         if (window.scrollY>=queHacemosOffSetTop) {
-            titleQueHacemos.classList.add('animate__fadeInDown');
+            titleQueHacemos.classList.add('animate__fadeInLeft');
         }
     })
     
