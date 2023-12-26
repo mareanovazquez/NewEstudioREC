@@ -13,9 +13,9 @@ html {
 }
 
 body {
-  background-color: #FCFCF7;
-  font-family: 'Poppins', sans-serif;
-  color: #222223;
+  background-color:#FCFCF7 !important;
+  font-family: 'Poppins', sans-serif !important;
+  color: #222223 !important;
 }
 
 /* NAVBAR */
@@ -318,7 +318,8 @@ main .principal .principal1 .btnPrincipal a {
 /* QUIENES SOMOS */
 
 .contenedorQuienesSomos {
-  border: 2px solid black; /*eliminar después de ubicar elementos*/
+
+  /*eliminar después de ubicar elementos*/
   /* background-image: url(../img/quienesSomos.jpg);
   background-position: center;
   background-size: cover; agregar después de ubicar elementos*/
@@ -337,10 +338,10 @@ main .principal .principal1 .btnPrincipal a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+
 }
 
-.contenedorQuienesSomos .contenidoQuienesSomos  .quienesSomosH2 {
+.contenedorQuienesSomos .contenidoQuienesSomos .quienesSomosH2 {
   font-family: 'Poppins', sans-serif;
   color: #222223;
   font-weight: 800;
@@ -349,7 +350,7 @@ main .principal .principal1 .btnPrincipal a {
   padding-bottom: 10px;
 }
 
-.contenedorQuienesSomos .contenidoQuienesSomos  .presentacion {
+.contenedorQuienesSomos .contenidoQuienesSomos .presentacion {
   font-family: 'Poppins', sans-serif;
   color: #222223;
   width: 100%;
@@ -357,26 +358,37 @@ main .principal .principal1 .btnPrincipal a {
 }
 
 .contenedorQuienesSomos .contenidoNosotras {
- width: 90%;
- margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .contenedorQuienesSomos .contenidoNosotras .laura {
   border-radius: 5px;
   padding: 10px;
-  box-shadow: 0px 9px 32px -1px rgba(0, 0, 0, 0.7);
+  background: #F9F6EE;
+  box-shadow: 6px 6px 4px 0px rgba(37,40,42,1);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.contenedorQuienesSomos .contenidoNosotras .laura .lauraFoto img {
-  width: 100%;
-  border-radius: 50%;
-  padding: 40px;
-  }
+.contenedorQuienesSomos .contenidoNosotras .laura .lauraFoto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.contenedorQuienesSomos .contenidoNosotras .laura .lauraFoto img {
+  width: 60%;
+  border: 3px solid #E20034;
+  border-radius: 50%;
+}
+
+.contenedorQuienesSomos .contenidoNosotras .laura .lauraTexto {
+  width: 60%;
+  margin: 0 auto;
+}
 .contenedorQuienesSomos .contenidoNosotras .laura .lauraTexto h3 {
   padding-top: 10px;
   font-family: "Open Sans", sans-serif;
@@ -399,6 +411,7 @@ main .principal .principal1 .btnPrincipal a {
   justify-content: space-evenly;
   align-items: center;
 }
+
 .contenedorQuienesSomos .contenidoNosotras .laura .lauraRRSS a {
   text-decoration: none;
   color: #222223;
@@ -408,22 +421,32 @@ main .principal .principal1 .btnPrincipal a {
   color: #E20034;
 }
 
-
-
 .contenedorQuienesSomos .contenidoNosotras .sol {
   border-radius: 5px;
   padding: 10px;
-  box-shadow: 0px 9px 32px -1px rgba(0, 0, 0, 0.7);
+  background: #FFFAFA;
+  box-shadow: 6px 6px 0px 0px rgba(37,40,42,1);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.contenedorQuienesSomos .contenidoNosotras .sol .solFoto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .contenedorQuienesSomos .contenidoNosotras .sol .solFoto img {
-  width: 100%;
+  width: 60%;
   border-radius: 50%;
-  padding: 40px;
+  border: 3px solid #E20034;
+}
+
+.contenedorQuienesSomos .contenidoNosotras .sol .solTexto{
+  width: 60%;
+  margin: 0 auto;
 }
 
 .contenedorQuienesSomos .contenidoNosotras .sol .solTexto h3 {
@@ -448,6 +471,7 @@ main .principal .principal1 .btnPrincipal a {
   justify-content: space-evenly;
   align-items: center;
 }
+
 .contenedorQuienesSomos .contenidoNosotras .sol .solRRSS a {
   text-decoration: none;
   color: #222223;
@@ -667,12 +691,12 @@ main .principal .principal1 .btnPrincipal a {
 @media (min-width: 576px) {
 
 
-/* MAIN */
+  /* MAIN */
 
 
-main .principal .principal1 .textPrincipal {
-  font-size: 50px;
-}
+  main .principal .principal1 .textPrincipal {
+    font-size: 50px;
+  }
 
 
   .comoFunciona .comoFuncionaH2 {
@@ -785,22 +809,47 @@ main .principal .principal1 .textPrincipal {
     margin: 0 auto;
   }
 
+  /*  QUIENES SOMOS */
+
+  .contenedorQuienesSomos .contenidoQuienesSomos .quienesSomosH2 {
+    font-size: 40px;
+  }
 
   .contenedorQuienesSomos .contenidoNosotras {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 60%;
+    width: 90%;
 
   }
 
-  .contenedorQuienesSomos .contenidoNosotras .laura {
+    .contenedorQuienesSomos .contenidoNosotras .laura {
     width: 40%;
   }
+
+  .contenedorQuienesSomos .contenidoNosotras .laura .lauraFoto img {
+    width: 60%;
+    border-radius: 50%;
+  }
+  .contenedorQuienesSomos .contenidoNosotras .laura .lauraTexto {
+    width: 90%;
+  }
+
   .contenedorQuienesSomos .contenidoNosotras .sol {
     width: 40%;
   }
+
+  .contenedorQuienesSomos .contenidoNosotras .sol .solFoto img {
+    width: 60%;
+    border-radius: 50%;
+  }
+
+  .contenedorQuienesSomos .contenidoNosotras .sol .solTexto {
+    width: 90%;
+  }
+
+
   .comoFuncionaH2 {
     font-size: 50px;
   }
@@ -1040,13 +1089,14 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     padding-right: 20px;
-    }
+  }
 
   header .navBar div img {
     width: 200px;
     padding-left: 20px;
 
   }
+
   header .navBar a {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
@@ -1058,6 +1108,7 @@ h2 {
   #imgLogotipoGris {
     display: none;
   }
+
   header .fixed {
     position: fixed;
     top: 0;
@@ -1134,6 +1185,7 @@ h2 {
     padding-top: 20px;
     font-size: 50px;
   }
+
   .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos {
     width: 50%;
     margin: 0 auto;
@@ -1148,7 +1200,52 @@ h2 {
     font-size: 18px;
   }
 
+  .contenedorQuienesSomos .contenidoQuienesSomos .presentacion {
+    width: 80%;
+    }
+  }
 
+/* Desde 1200px en adelante */
+/* Bootstrap breakpoints LG y superiores */
+@media (min-width: 1200px) {
+  /* Tus estilos para dispositivos extra large y superiores van aquí */
+
+  /*  QUIENES SOMOS */
+
+  .contenedorQuienesSomos .contenidoQuienesSomos .quienesSomosH2 {
+    font-size: 50px;
+    padding-top: 20px;  
+    
+  }
+
+  .contenedorQuienesSomos .contenidoQuienesSomos .presentacion {
+    width: 60%;
+    padding-bottom: 20px;
+    }
+
+  .contenedorQuienesSomos .contenidoNosotras {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+  }
+
+  .contenedorQuienesSomos .contenidoNosotras .laura {
+    width: 40%;
+  }
+
+  .contenedorQuienesSomos .contenidoNosotras .laura .lauraTexto {
+    width: 80%;
+  }
+
+  .contenedorQuienesSomos .contenidoNosotras .sol {
+    width: 40%;
+  }
+
+  .contenedorQuienesSomos .contenidoNosotras .sol .solTexto {
+    width: 80%;
+  }
 
 }
 
@@ -1251,5 +1348,3 @@ footer .firma {
   transform: rotate(360deg);
   transition: 1.3s ease-in-out;
 }
-
-/*# sourceMappingURL=estilos.css.map */
