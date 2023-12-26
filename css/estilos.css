@@ -1200,6 +1200,36 @@ h2 {
     font-size: 20px;
   }
 
+  /* CLIENTES */
+
+  .contenedorClientes h2 {
+    font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+  }
+
+  .contenedorClientes .contenidoClientes {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr); /* Crea 12 columnas con el mismo ancho */
+      gap: 10px; /* Espacio entre las imágenes (ajusta según tus necesidades) */
+    }
+    
+
+  .contenedorClientes .contenidoClientes .itemCliente img {
+    
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      display: block;
+      border-radius: 5px;
+    
+  }
+
+
+  /* QUIENES SOMOS */
+
   .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li {
     font-size: 18px;
   }
@@ -1207,6 +1237,8 @@ h2 {
   .contenedorQuienesSomos .contenidoQuienesSomos .presentacion {
     width: 80%;
   }
+
+
 }
 
 /* Desde 1200px en adelante */
