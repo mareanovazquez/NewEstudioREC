@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background-color:#FCFCF7 !important;
+  background-color: #FCFCF7 !important;
   font-family: 'Poppins', sans-serif !important;
   color: #222223 !important;
 }
@@ -365,8 +365,9 @@ main .principal .principal1 .btnPrincipal a {
 .contenedorQuienesSomos .contenidoNosotras .laura {
   border-radius: 5px;
   padding: 10px;
-  background: #F9F6EE;
-  box-shadow: 6px 6px 4px 0px rgba(37,40,42,1);
+  background: rgb(252, 252, 247);
+  background: linear-gradient(135deg, rgba(252, 252, 247, 1) 39%, rgba(249, 246, 238, 1) 66%);
+  box-shadow: 6px 6px 4px 0px rgba(37, 40, 42, 1);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -389,6 +390,7 @@ main .principal .principal1 .btnPrincipal a {
   width: 60%;
   margin: 0 auto;
 }
+
 .contenedorQuienesSomos .contenidoNosotras .laura .lauraTexto h3 {
   padding-top: 10px;
   font-family: "Open Sans", sans-serif;
@@ -424,8 +426,9 @@ main .principal .principal1 .btnPrincipal a {
 .contenedorQuienesSomos .contenidoNosotras .sol {
   border-radius: 5px;
   padding: 10px;
-  background: #FFFAFA;
-  box-shadow: 6px 6px 0px 0px rgba(37,40,42,1);
+  background: rgb(252, 252, 247);
+  background: linear-gradient(135deg, rgba(252, 252, 247, 1) 39%, rgba(249, 246, 238, 1) 66%);
+  box-shadow: 6px 6px 0px 0px rgba(37, 40, 42, 1);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -444,7 +447,7 @@ main .principal .principal1 .btnPrincipal a {
   border: 3px solid #E20034;
 }
 
-.contenedorQuienesSomos .contenidoNosotras .sol .solTexto{
+.contenedorQuienesSomos .contenidoNosotras .sol .solTexto {
   width: 60%;
   margin: 0 auto;
 }
@@ -824,7 +827,7 @@ main .principal .principal1 .btnPrincipal a {
 
   }
 
-    .contenedorQuienesSomos .contenidoNosotras .laura {
+  .contenedorQuienesSomos .contenidoNosotras .laura {
     width: 40%;
   }
 
@@ -832,6 +835,7 @@ main .principal .principal1 .btnPrincipal a {
     width: 60%;
     border-radius: 50%;
   }
+
   .contenedorQuienesSomos .contenidoNosotras .laura .lauraTexto {
     width: 90%;
   }
@@ -1202,8 +1206,8 @@ h2 {
 
   .contenedorQuienesSomos .contenidoQuienesSomos .presentacion {
     width: 80%;
-    }
   }
+}
 
 /* Desde 1200px en adelante */
 /* Bootstrap breakpoints LG y superiores */
@@ -1214,14 +1218,14 @@ h2 {
 
   .contenedorQuienesSomos .contenidoQuienesSomos .quienesSomosH2 {
     font-size: 50px;
-    padding-top: 20px;  
-    
+    padding-top: 20px;
+
   }
 
   .contenedorQuienesSomos .contenidoQuienesSomos .presentacion {
     width: 60%;
     padding-bottom: 20px;
-    }
+  }
 
   .contenedorQuienesSomos .contenidoNosotras {
     display: flex;
