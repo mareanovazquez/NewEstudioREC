@@ -225,37 +225,7 @@ main .principal .principal1 .btnPrincipal a {
   color: #FCFCF7;
 }
 
-/* CLIENTES */
-.contenedorClientes h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 800;
-  text-align: center;
-  padding-top: 20px;
-  font-size: 30px;
-  }
 
-.contenedorClientes .contenidoClientes {
-  width: 400%;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  /* Crea 12 columnas con el mismo ancho */
-  gap: 20px;
-  /* Espacio entre las imágenes (ajusta según tus necesidades) */
-  overflow: hidden;
-  /* oculta las imágenes que están fuera del ancho máximo */
-  padding-top: 30px;
-  padding-bottom: 40px;
-}
-
-
-.contenedorClientes .contenidoClientes .itemCliente {
-  width: 70%;
-  margin: 0 auto;
-  height: auto;
-  max-width: 100%;   
-  display: block;
-  border-radius: 5px;
-}
 
 /* QUE HACEMOS */
 
@@ -315,36 +285,40 @@ main .principal .principal1 .btnPrincipal a {
 }
 
 /* CLIENTES */
-.clientes {
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
 
-.clientes h4 p {
+.contenedorClientes {
+  padding-top: 30px;
+  overflow: hidden;
+ }
+.contenedorClientes h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
   text-align: center;
-  padding-left: 20px;
-  color: #25282A;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
+  padding-top: 20px;
+  font-size: 30px;
+  }
+
+.contenedorClientes .contenidoClientes {
+  width: 400%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  /* Crea 12 columnas con el mismo ancho */
+  gap: 20px;
+  /* Espacio entre las imágenes (ajusta según tus necesidades) */
+  overflow: hidden;
+  /* oculta las imágenes que están fuera del ancho máximo */
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 
-.clientes .clientes1 {
-  padding: 30px;
-}
 
-.clientes .clientes1 .cliente {
-  padding: 10px;
-}
-
-.clientes .clientes1 img {
-  filter: grayscale(0.8);
-}
-
-.cliente img:hover {
-  filter: grayscale(0);
-  transform: scale(1.05);
-  transition: 0.5s ease-in-out;
+.contenedorClientes .contenidoClientes .itemCliente {
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-width: 100%;   
+  display: block;
+  border-radius: 5px;
 }
 
 /* QUIENES SOMOS */
@@ -1236,6 +1210,7 @@ h2 {
 
  .contenedorClientes {
   padding-top: 30px;
+  overflow: hidden;
  }
   .contenedorClientes h2 {
     font-family: 'Poppins', sans-serif;
@@ -1249,8 +1224,7 @@ h2 {
     width: 200%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    /* Crea 12 columnas con el mismo ancho */
-    gap: 20px;
+   
     /* Espacio entre las imágenes (ajusta según tus necesidades) */
     overflow: hidden;
     /* oculta las imágenes que están fuera del ancho máximo */
