@@ -42,4 +42,4 @@ function nextSlide() {
 }
 
 // Configura el intervalo para cambiar automáticamente los slides cada 3 segundos
-const intervalId = setInterval(nextSlide, 3000);
+const intervalId = setInterval(nextSlide, 4500);

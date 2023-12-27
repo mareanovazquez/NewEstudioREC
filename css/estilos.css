@@ -225,6 +225,38 @@ main .principal .principal1 .btnPrincipal a {
   color: #FCFCF7;
 }
 
+/* CLIENTES */
+.contenedorClientes h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  }
+
+.contenedorClientes .contenidoClientes {
+  width: 400%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  /* Crea 12 columnas con el mismo ancho */
+  gap: 20px;
+  /* Espacio entre las imágenes (ajusta según tus necesidades) */
+  overflow: hidden;
+  /* oculta las imágenes que están fuera del ancho máximo */
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+
+.contenedorClientes .contenidoClientes .itemCliente {
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-width: 100%;   
+  display: block;
+  border-radius: 5px;
+}
+
 /* QUE HACEMOS */
 
 .contenedorQueHacemos {
@@ -1202,7 +1234,9 @@ h2 {
 
   /* CLIENTES */
 
- 
+ .contenedorClientes {
+  padding-top: 30px;
+ }
   .contenedorClientes h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
@@ -1237,7 +1271,13 @@ h2 {
 
   /* QUIENES SOMOS */
 
-  .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li {
+  .contenedorQuienesSomos
+{
+  padding-top: 30px;
+
+} 
+
+ .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li {
     font-size: 18px;
   }
 
