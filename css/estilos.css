@@ -496,6 +496,11 @@ main .principal .principal1 .btnPrincipal a {
 .contenedorContacto {
   background-image: url(../img/imagenFormulario_Desenfoque.jpg);
   background-size: cover;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 .contenedorContacto h2 {
@@ -504,7 +509,26 @@ main .principal .principal1 .btnPrincipal a {
   font-weight: 800;
   font-size: 30px;
   text-align: center;
+  padding-top: 20px;
   padding-bottom: 10px;
+}
+
+.contenedorContacto .contenidoContacto div .imagenFormulario {
+  display: none;
+}
+
+.contenedorContacto .contenidoContacto .svgFormulario {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contenedorContacto .contenidoContacto .svgFormulario img {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .contenedorContacto .contenidoContacto .formulario {
@@ -514,15 +538,83 @@ main .principal .principal1 .btnPrincipal a {
   justify-content: center;
 }
 
-.contenedorContacto .contenidoContacto .imgFormulario {
-  margin: 0 auto;
-  width: 70%;
-}
-.contenedorContacto .contenidoContacto .imgFormulario  img {
-  width: 125px;
-  
+.contenedorContacto .contenidoContacto .formulario .btnEnviar {
+  margin: 10px;
+  align-self: flex-end;
 }
 
+/* FOOTER */
+footer {
+  background-color: #222223;
+}
+
+footer div {
+  font-size: 18px;
+  color: #bfbebe;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  padding-top: 20px;
+}
+
+footer div a {
+  display: inline;
+  text-decoration: none;
+  color: #bfbebe;
+}
+
+footer div a:hover {
+  color: #E20034;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+footer .menuRedesFooter ul {
+  padding: 20px;
+}
+
+footer .menuRedesFooter ul li {
+  list-style: none;
+}
+
+footer .menuRedesFooter ul li i {
+  padding: 5px;
+  color: #bfbebe;
+  font-size: 25px;
+}
+
+footer .firma {
+  font-size: 14px;
+  color: #bfbebe;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+
+.menuRedesFooter i:hover {
+  transform: scale(1.8);
+  transition: all 0.7s ease-in-out;
+}
+
+.menuRedesFooter li .correo:hover {
+  transform: rotate(360deg);
+  transition: 1.3s ease-in-out;
+}
+
+.estudio {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #E20034;
+  letter-spacing: -1px;
+  font-size: 22px;
+}
+
+.rec {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -1px;
+  font-size: 22px;
+}
 
 /*Boton Volver Arriba*/
 .btn-volver-arriba {
@@ -576,207 +668,14 @@ main .principal .principal1 .btnPrincipal a {
 }
 
 
-
-.portfolio {
-  background-image: url(../img/queHacemos.jpg);
-  background-size: cover;
-  height: 45vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.portfolio h1 {
-  color: white;
-  font-size: 50px;
-  letter-spacing: 3mm;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-/*loading Portfolio*/
-.portfolioLoading {
-  height: 2px;
-  background-color: #E20034;
-}
-
-@keyframes movingLeftP {
-  from {
-    width: 0px;
-  }
-
-  to {
-    width: 100%;
-  }
-}
-
-.portfolioLoading {
-  animation-name: movingLeftP;
-  animation-duration: 10s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-  animation-fill-mode: forwards;
-}
-
-.card {
-  border-color: #7c7a7a;
-}
-
-.card:hover {
-  transform: scale(1.02);
-  transition: 0.7s;
-  border-color: #E20034;
-}
-
-.modal-dialog {
-  max-width: 800px;
-}
-
-.modal-title a:hover {
-  font-weight: 600;
-  text-decoration: none;
-  transition: 0.5s;
-  color: #E20034;
-}
-
-.carousel-control-prev-icon:hover {
-  transform: rotate(-360deg);
-  transition: 0.8s;
-}
-
-.carousel-control-next-icon:hover {
-  transform: rotate(360deg);
-  transition: 0.8s;
-}
-
-.carousel-control-prev i {
-  color: #222223;
-  font-size: 40px;
-  font-weight: 600;
-}
-
-.carousel-control-prev i:hover {
-  transform: rotate(-360deg);
-  transition: 0.8s;
-}
-
-.carousel-control-next i {
-  color: #222223;
-  font-size: 40px;
-  font-weight: 600;
-}
-
-.carousel-control-next i:hover {
-  transform: rotate(360deg);
-  transition: 0.8s;
-}
-
-.estudio {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  color: #E20034;
-  letter-spacing: -1px;
-  font-size: 22px;
-}
-
-.rec {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: -1px;
-  font-size: 22px;
-}
-
 /* Entre 576px y 767px */
 /* Bootstrap breakpoints SM y superiores */
 @media (min-width: 576px) {
 
-
   /* MAIN */
-
-
   main .principal .principal1 .textPrincipal {
     font-size: 50px;
   }
-
-
-  .comoFunciona .comoFuncionaH2 {
-    color: whitesmoke;
-    font-family: "Poppins", sans-serif;
-    font-size: 25px;
-    font-weight: 600;
-    text-align: center;
-    padding: 40px;
-  }
-
-  .comoFunciona .comoFunciona1 {
-    padding: 20px;
-  }
-
-  .comoFunciona .comoFunciona1 div img {
-    padding-bottom: 20px;
-  }
-
-  .comoFuncionaH2:hover {
-    color: #7c7a7a;
-  }
-
-
-  .presentacion {
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    padding: 10px;
-  }
-
-  .funcionamos {
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    padding-top: 20px;
-    color: white;
-  }
-
-  .contacto {
-    background-image: url(../img/imagenFormulario_Desenfoque.jpg);
-    background-size: cover;
-  }
-
-
-
-  .contacto .contacto1 .formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .contacto .contacto1 .formulario div img {
-    width: 150px;
-  }
-
-  .contacto .contacto1 .formulario div ul {
-    padding: 10px;
-  }
-
-  .contacto .contacto1 .formulario div ul li {
-    list-style: none;
-  }
-
-  .contacto .contacto1 .formulario div ul li a {
-    text-decoration: none;
-    text-align: left;
-    font-size: 16px;
-    color: #222223;
-  }
-
-  .contacto .contacto1 .formulario div ul li a:hover {
-    color: #bfbebe;
-    font-weight: 500;
-    text-decoration: none;
-  }
-
 
 }
 
@@ -784,8 +683,10 @@ main .principal .principal1 .btnPrincipal a {
 /* Bootstrap breakpoints MD y superiores */
 @media (min-width: 768px) {
 
-  .contenedorQueHacemos {
+  /* MAIN */
 
+  /* QUÉ HACEMOS */
+  .contenedorQueHacemos {
     background-image: url('../img/queHacemos.jpg');
     background-size: cover;
     background-position: center;
@@ -801,7 +702,6 @@ main .principal .principal1 .btnPrincipal a {
     font-size: 40px;
   }
 
-
   .contenedorQueHacemos .contenidoQueHacemos .contenedorImgQueHacemos .imgQueHacemos {
     display: none;
   }
@@ -812,7 +712,6 @@ main .principal .principal1 .btnPrincipal a {
   }
 
   /*  QUIENES SOMOS */
-
   .contenedorQuienesSomos .contenidoQuienesSomos .quienesSomosH2 {
     font-size: 40px;
   }
@@ -823,7 +722,6 @@ main .principal .principal1 .btnPrincipal a {
     justify-content: space-evenly;
     align-items: center;
     width: 90%;
-
   }
 
   .contenedorQuienesSomos .contenidoNosotras .laura {
@@ -852,195 +750,39 @@ main .principal .principal1 .btnPrincipal a {
     width: 90%;
   }
 
-
-  .comoFuncionaH2 {
-    font-size: 50px;
+  /* CLIENTES */
+  .contenedorClientes h2 {
+    font-size: 40px;
   }
 
-  .contacto {
-    background-image: url(../img/imagenFormulario_Desenfoque.jpg);
-    background-size: cover;
+  /* CONTACTO */
+
+  .contenedorContacto h2 {
+    font-size: 40px;
   }
 
-  .contacto .contacto1 .formulario {
+  .contenedorContacto .contenidoContacto {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    padding: 30px;
+    align-items: center;
   }
 
-  .contacto .contacto1 .formulario div {
-    width: 30%;
+  .contenedorContacto .contenidoContacto .svgFormulario {
+    margin: 0 auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
-  .contacto .contacto1 .formulario div img {
-    width: 200px;
+  .contenedorContacto .contenidoContacto .formulario {
+    width: 40%;
+    margin: 0 auto;
   }
 
-  .contacto .contacto1 .formulario div {
-    width: 50%;
-  }
 
-  .contacto .contacto1 .formulario div ul {
-    padding: 10px;
-    border-left-style: solid;
-    border-left-color: #E20034;
-    border-left-width: 2px;
-  }
-
-  .contacto .contacto1 .formulario div ul li {
-    list-style: none;
-  }
-
-  .contacto .contacto1 .formulario div ul li a {
-    text-decoration: none;
-    text-align: left;
-    font-size: 20px;
-    color: #222223;
-  }
-
-  .contacto .contacto1 .formulario div ul li a:hover {
-    color: #bfbebe;
-    font-weight: 500;
-    text-decoration: none;
-  }
 }
-
-
-.principal1 h1 {
-  font-size: 90px;
-}
-
-.principal1 p {
-  font-size: 35px;
-}
-
-h2 {
-  font-size: 50px;
-}
-
-
-.queHacemos {
-  padding-top: 30px;
-  width: 100%;
-}
-
-.queHacemos .queHacemos1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.queHacemos .queHacemos1 div {
-  width: 45%;
-}
-
-.queHacemos .queHacemos1 .trabajos {
-  font-size: 18px;
-  text-align: left;
-}
-
-.comoFunciona {
-  padding-top: 30px;
-  width: 100%;
-}
-
-.comoFunciona .comoFuncionaH2 {
-  font-size: 50px;
-}
-
-.comoFunciona .comoFunciona1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 30px;
-}
-
-.comoFunciona .comoFunciona1 div {
-  width: 45%;
-}
-
-.comoFunciona .comoFunciona1 div {
-  width: 45%;
-}
-
-.comoFuncionaH2:hover {
-  color: #7c7a7a;
-}
-
-.presentacion {
-  font-size: 18px;
-}
-
-.contacto {
-  background-image: url(../img/imagenFormulario_Desenfoque.jpg);
-  background-size: cover;
-}
-
-.contacto .contacto1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /*    div {
-          width: 40%;
-          .imagenFormulario {
-              display:block;
-              padding-bottom: 20px;
-              }
-          } */
-}
-
-.contacto .contacto1 .formulario {
-  width: 40%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding-bottom: 30px;
-}
-
-.contacto .contacto1 .formulario div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 35%;
-}
-
-.contacto .contacto1 .formulario div img {
-  width: 200px;
-}
-
-.contacto .contacto1 .formulario div {
-  width: 45%;
-}
-
-.contacto .contacto1 .formulario div ul {
-  padding-left: 130px;
-}
-
-.contacto .contacto1 .formulario div ul li {
-  list-style: none;
-}
-
-.contacto .contacto1 .formulario div ul li a {
-  text-decoration: none;
-  text-align: left;
-  font-size: 20px;
-  color: #222223;
-}
-
-.contacto .contacto1 .formulario div ul li a:hover {
-  color: #bfbebe;
-  font-weight: 500;
-  text-decoration: none;
-}
-
 
 /*Pantalla Desktop*/
 @media (min-width: 992px) {
@@ -1252,6 +994,29 @@ h2 {
     width: 80%;
   }
 
+  /* CONTACTO */
+  .contenedorContacto .contenidoContacto {
+  width: 80%;
+  margin: 0 auto;
+  }
+
+  .contenedorContacto h2 {
+    font-size: 50px;
+  }
+
+   .contenedorContacto .contenidoContacto .svgFormulario {
+    margin: 0 auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contenedorContacto .contenidoContacto .formulario {
+    width: 50%;
+    margin: 0 auto;
+    align-items: normal;
+  }
 
 }
 
@@ -1339,62 +1104,4 @@ h2 {
   100% {
     transform: translateX(0);
   }
-}
-
-/* QUÉ HACEMOS */
-
-footer {
-  background-color: #222223;
-}
-
-footer div {
-  font-size: 18px;
-  color: #bfbebe;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 200;
-  padding-top: 20px;
-}
-
-footer div a {
-  display: inline;
-  text-decoration: none;
-  color: #bfbebe;
-}
-
-footer div a:hover {
-  color: #E20034;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-footer .menuRedesFooter ul {
-  padding: 20px;
-}
-
-footer .menuRedesFooter ul li {
-  list-style: none;
-}
-
-footer .menuRedesFooter ul li i {
-  padding: 5px;
-  color: #bfbebe;
-  font-size: 25px;
-}
-
-footer .firma {
-  font-size: 14px;
-  color: #bfbebe;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 200;
-  padding-bottom: 10px;
-}
-
-.menuRedesFooter i:hover {
-  transform: scale(1.8);
-  transition: all 0.7s ease-in-out;
-}
-
-.menuRedesFooter li .correo:hover {
-  transform: rotate(360deg);
-  transition: 1.3s ease-in-out;
 }

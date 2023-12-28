@@ -214,28 +214,26 @@
     <section class="contenedorContacto" id="contacto">
         <h2>CONTACTO</h2>
         <article class="contenidoContacto">
-            <!-- <div>
-                    <img class="img-fluid imagenFormulario" src="../img/imagenFormulario.jpg" alt="teclado">
-                </div> -->
-
-            <div class="imgFormulario">
-                <img src="../img/isologo.png" class="isologo" alt="Isologo Estudio REC">
+            <div>
+                <img class="imagenFormulario" src="../img/imagenFormulario.jpg" alt="teclado">
             </div>
-
-            <form>
-                <div class="mb-3">
+            <div class="svgFormulario">
+                <img src="./img/ilosogoForm.svg" class="isologo" alt="Isologo Estudio REC">
+            </div>
+            <form class="formulario" id="formulario">
+                <div class="formNombre">
                     <label for="nombre" class="form-label">Nombre:</label>
                     <input type="text" class="form-control" id="nombre" name="nombre" required>
                 </div>
-                <div class="mb-3">
+                <div class="formEmail">
                     <label for="correo" class="form-label">Correo Electrónico:</label>
                     <input type="email" class="form-control" id="correo" name="correo" required>
                 </div>
-                <div class="mb-3">
+                <div class="formMensaje">
                     <label for="mensaje" class="form-label">Mensaje:</label>
-                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Dejanos tu consulta y te vamos a responder lo antes posible." required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-dark btnEnviar">Enviar</button>
             </form>
         </article>
     </section>
@@ -268,7 +266,7 @@
                             class="fa fa-envelope fa-2x"></i></a></li>
             </ul>
         </nav>
-        <div class="firma text-center text-white ">
+        <div class="firma text-center ">
             <p>DISEÑO | Mariano Vazquez para <a href="https://estudiorec.com.ar"> ESTUDIO REC </a></p>
         </div>
     </footer>

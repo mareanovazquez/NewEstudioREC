@@ -1,0 +1,121 @@
+.portfolio {
+    background-image: url(../img/queHacemos.jpg);
+    background-size: cover;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio h1 {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 3mm;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+/*loading Portfolio*/
+.portfolioLoading {
+    height: 2px;
+    background-color: #E20034;
+}
+
+@keyframes movingLeftP {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.portfolioLoading {
+    animation-name: movingLeftP;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.card {
+    border-color: #7c7a7a;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    transition: 0.7s;
+    border-color: #E20034;
+}
+
+.modal-dialog {
+    max-width: 800px;
+}
+
+.modal-title a:hover {
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.5s;
+    color: #E20034;
+}
+
+.carousel-control-prev-icon:hover {
+    transform: rotate(-360deg);
+    transition: 0.8s;
+}
+
+.carousel-control-next-icon:hover {
+    transform: rotate(360deg);
+    transition: 0.8s;
+}
+
+.carousel-control-prev i {
+    color: #222223;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.carousel-control-prev i:hover {
+    transform: rotate(-360deg);
+    transition: 0.8s;
+}
+
+.carousel-control-next i {
+    color: #222223;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.carousel-control-next i:hover {
+    transform: rotate(360deg);
+    transition: 0.8s;
+}
+
+
+
+/* Entre 576px y 767px */
+/* Bootstrap breakpoints SM y superiores */
+@media (min-width: 576px) {}
+
+/* Entre 768px y 991px */
+/* Bootstrap breakpoints MD y superiores */
+@media (min-width: 768px) {}
+
+/* Estilo para pantallas en orientación portrait (vertical) con un ancho entre 767px y 991px */
+@media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
+    /* Agrega tus reglas de estilo específicas para pantallas en esta excepción aquí */
+}
+
+/* Entre 992px y 1199px */
+/* Bootstrap breakpoints LG y superiores */
+@media (min-width: 992px) {
+    /* Tus estilos para dispositivos large y superiores van aquí */
+}
+
+/* Desde 1200px en adelante */
+/* Bootstrap breakpoints LG y superiores */
+@media (min-width: 1200px) {
+    /* Tus estilos para dispositivos extra large y superiores van aquí */
+}
