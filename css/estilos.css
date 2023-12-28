@@ -541,7 +541,16 @@ main .principal .principal1 .btnPrincipal a {
 .contenedorContacto .contenidoContacto .formulario .btnEnviar {
   margin: 10px;
   align-self: flex-end;
+  background-color: #222223;
+  color: #FCFCF7;
 }
+
+.contenedorContacto .contenidoContacto .formulario .btnEnviar:hover {
+  background-color: #bfbebe;
+  color: #222223;
+  
+}
+
 
 /* FOOTER */
 footer {

@@ -220,18 +220,19 @@
             <div class="svgFormulario">
                 <img src="./img/ilosogoForm.svg" class="isologo" alt="Isologo Estudio REC">
             </div>
-            <form class="formulario" id="formulario">
+            <form class="formulario" id="formulario" action="https://formspree.io/f/xqkrkzwv"
+            method="POST">
                 <div class="formNombre">
                     <label for="nombre" class="form-label">Nombre:</label>
-                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    <input type="text" class="form-control" id="name" name="name" required>
                 </div>
                 <div class="formEmail">
                     <label for="correo" class="form-label">Correo Electrónico:</label>
-                    <input type="email" class="form-control" id="correo" name="correo" required>
+                    <input type="email" class="form-control" id="email" name="email" required>
                 </div>
                 <div class="formMensaje">
                     <label for="mensaje" class="form-label">Mensaje:</label>
-                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Dejanos tu consulta y te vamos a responder lo antes posible." required></textarea>
+                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Dejanos tu consulta y te vamos a responder lo antes posible." required></textarea>
                 </div>
                 <button type="submit" class="btn btn-dark btnEnviar">Enviar</button>
             </form>
