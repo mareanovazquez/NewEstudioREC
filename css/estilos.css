@@ -289,14 +289,16 @@ main .principal .principal1 .btnPrincipal a {
 .contenedorClientes {
   padding-top: 30px;
   overflow: hidden;
- }
+  margin-bottom: 30px;
+}
+
 .contenedorClientes h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   text-align: center;
   padding-top: 20px;
   font-size: 30px;
-  }
+}
 
 .contenedorClientes .contenidoClientes {
   width: 400%;
@@ -313,10 +315,10 @@ main .principal .principal1 .btnPrincipal a {
 
 
 .contenedorClientes .contenidoClientes .itemCliente {
-  width: 70%;
-  margin: 0 auto;
+  width: 100%;
+
   height: auto;
-  max-width: 100%;   
+  max-width: 100%;
   display: block;
   border-radius: 5px;
 }
@@ -490,44 +492,37 @@ main .principal .principal1 .btnPrincipal a {
   color: #E20034;
 }
 
-
-
-.contacto {
+/* CONTACTO */
+.contenedorContacto {
   background-image: url(../img/imagenFormulario_Desenfoque.jpg);
   background-size: cover;
 }
 
-.contacto .contacto1 .formulario {
+.contenedorContacto h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #222223;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.contenedorContacto .contenidoContacto .formulario {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.contacto .contacto1 .formulario div img {
+.contenedorContacto .contenidoContacto .imgFormulario {
+  margin: 0 auto;
+  width: 70%;
+}
+.contenedorContacto .contenidoContacto .imgFormulario  img {
   width: 125px;
+  
 }
 
-.contacto .contacto1 .formulario div ul {
-  padding: 10px;
-}
-
-.contacto .contacto1 .formulario div ul li {
-  list-style: none;
-}
-
-.contacto .contacto1 .formulario div ul li a {
-  text-decoration: none;
-  font-size: 18px;
-  color: #222223;
-  font-weight: 600;
-}
-
-.contacto .contacto1 .formulario div ul li a:hover {
-  color: #bfbebe;
-  font-weight: 500;
-  text-decoration: none;
-}
 
 /*Boton Volver Arriba*/
 .btn-volver-arriba {
@@ -558,11 +553,16 @@ main .principal .principal1 .btnPrincipal a {
   line-height: 40px;
 }
 
-/*efecto borde*/
-/*loading index*/
+
+/*ANIMACIÓN loading */
 .loading {
   height: 2px;
   background-color: #E20034;
+  animation-name: movingLeft;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 @keyframes movingLeft {
@@ -571,18 +571,11 @@ main .principal .principal1 .btnPrincipal a {
   }
 
   to {
-    width: 80%;
+    width: 100%;
   }
 }
 
-.loading {
-  animation-name: movingLeft;
-  animation-duration: 10s;
-  animation-iteration-count: 3;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-  animation-fill-mode: forwards;
-}
+
 
 .portfolio {
   background-image: url(../img/queHacemos.jpg);
@@ -1208,23 +1201,24 @@ h2 {
 
   /* CLIENTES */
 
- .contenedorClientes {
-  padding-top: 30px;
-  overflow: hidden;
- }
+  .contenedorClientes {
+    padding-top: 30px;
+    overflow: hidden;
+  }
+
   .contenedorClientes h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     text-align: center;
     padding-top: 20px;
     font-size: 50px;
-    }
+  }
 
   .contenedorClientes .contenidoClientes {
     width: 200%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-   
+
     /* Espacio entre las imágenes (ajusta según tus necesidades) */
     overflow: hidden;
     /* oculta las imágenes que están fuera del ancho máximo */
@@ -1237,7 +1231,7 @@ h2 {
     width: 50%;
     margin: 0 auto;
     height: auto;
-    max-width: 100%;   
+    max-width: 100%;
     display: block;
     border-radius: 5px;
   }
@@ -1245,13 +1239,12 @@ h2 {
 
   /* QUIENES SOMOS */
 
-  .contenedorQuienesSomos
-{
-  padding-top: 30px;
+  .contenedorQuienesSomos {
+    padding-top: 30px;
 
-} 
+  }
 
- .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li {
+  .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li {
     font-size: 18px;
   }
 
