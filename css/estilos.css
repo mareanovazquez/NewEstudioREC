@@ -535,18 +535,20 @@ main .principal .principal1 .btnPrincipal a {
 .contenedorContacto .contenidoContacto .formulario .btnEnviar:hover {
   background-color: #bfbebe;
   color: #222223;
-  
+
 }
 
 
 /* FOOTER */
 .contenedorFooter {
+  padding-top: 30px;
   background-color: #222223;
+  padding-bottom: 30px;
 }
 
 .contenedorFooter .imgLogoFooter {
   padding-top: 15px;
-  width: 15%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -557,46 +559,45 @@ main .principal .principal1 .btnPrincipal a {
 }
 
 .contenedorFooter .menuRedesFooter .itemRedes {
-  font-size: 30px;
+  font-size: 20px;
   color: #FCFCF7;
   letter-spacing: 20px;
 }
 
-.contenedorFooter .menuRedesFooter .itemRedes:hover{
+.contenedorFooter .menuRedesFooter .itemRedes:hover {
   color: #bfbebe;
 }
 
-.contenedorFooter .dividerFooter {
-  background-color: #FCFCF7;
-  max-height: 2px;
+.contenedorFooter .divider {
+  width: 100%;
+  height: 1px;
+  background-color: #7c7a7a;
   width: 80%;
-  }
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
 
-footer .firma {
+.contenedorFooter .firma {
+  text-align: center;
   font-size: 14px;
   color: #bfbebe;
   font-family: "Open Sans", sans-serif;
   font-weight: 200;
-  
 }
 
+.contenedorFooter .firma a {
+  text-decoration: none;
+  color: #FCFCF7;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
 
-
-.estudio {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+.contenedorFooter .firma a:hover {
   color: #E20034;
-  letter-spacing: -1px;
-  font-size: 22px;
 }
 
-.rec {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: -1px;
-  font-size: 22px;
-}
 
 /*Boton Volver Arriba*/
 .btn-volver-arriba {
@@ -659,6 +660,14 @@ footer .firma {
     font-size: 50px;
   }
 
+  /* FOOTER */
+  .contenedorFooter .imgLogoFooter {
+    width: 40%;
+  }
+
+  .contenedorFooter .menuRedesFooter .itemRedes {
+    font-size: 20px;
+  }
 }
 
 /* Entre 768px y 991px */
@@ -761,6 +770,15 @@ footer .firma {
   .contenedorContacto .contenidoContacto .formulario {
     width: 40%;
     margin: 0 auto;
+  }
+
+  /* FOOTER */
+  .contenedorFooter .imgLogoFooter {
+    width: 30%;
+  }
+
+  .contenedorFooter .menuRedesFooter .itemRedes {
+    font-size: 25px;
   }
 
 
@@ -978,15 +996,15 @@ footer .firma {
 
   /* CONTACTO */
   .contenedorContacto .contenidoContacto {
-  width: 80%;
-  margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .contenedorContacto h2 {
     font-size: 50px;
   }
 
-   .contenedorContacto .contenidoContacto .svgFormulario {
+  .contenedorContacto .contenidoContacto .svgFormulario {
     margin: 0 auto;
     width: 30%;
     display: flex;
@@ -998,6 +1016,15 @@ footer .firma {
     width: 50%;
     margin: 0 auto;
     align-items: normal;
+  }
+
+  /* FOOTER */
+  .contenedorFooter .imgLogoFooter {
+    width: 25%;
+  }
+
+  .contenedorFooter .menuRedesFooter .itemRedes {
+    font-size: 30px;
   }
 
 }
@@ -1042,6 +1069,15 @@ footer .firma {
 
   .contenedorQuienesSomos .contenidoNosotras .sol .solTexto {
     width: 80%;
+  }
+
+   /* FOOTER */
+   .contenedorFooter .imgLogoFooter {
+    width: 15%;
+  }
+
+  .contenedorFooter .menuRedesFooter .itemRedes {
+    font-size: 30px;
   }
 
 }
