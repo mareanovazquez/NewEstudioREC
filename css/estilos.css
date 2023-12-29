@@ -327,6 +327,9 @@ main .principal .principal1 .btnPrincipal a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: rgb(252,252,247);
+background: linear-gradient(145deg, rgba(252,252,247,1) 60%, rgba(226,0,52,1) 60%);
+border-radius: 5px;
   }
 
 .contenedorQuienesSomos .contenidoQuienesSomos {
@@ -591,9 +594,12 @@ main .principal .principal1 .btnPrincipal a {
 .contenedorFooter .firma a {
   text-decoration: none;
   color: #FCFCF7;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   font-weight: 800;
+  font-size: 13px;
 }
+
+
 
 .contenedorFooter .firma a:hover {
   color: #E20034;
@@ -714,6 +720,8 @@ main .principal .principal1 .btnPrincipal a {
     justify-content: space-evenly;
     align-items: center;
     width: 90%;
+    
+
   }
 
   .contenedorQuienesSomos .contenidoNosotras .laura {
