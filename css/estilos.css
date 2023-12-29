@@ -225,10 +225,7 @@ main .principal .principal1 .btnPrincipal a {
   color: #FCFCF7;
 }
 
-
-
 /* QUE HACEMOS */
-
 .contenedorQueHacemos {
   padding-top: 30px;
   width: 100%;
@@ -245,7 +242,6 @@ main .principal .principal1 .btnPrincipal a {
 .contenedorQueHacemos .contenidoQueHacemos .contenedorImgQueHacemos {
   width: 90%;
   margin: 0 auto;
-
 }
 
 .contenedorQueHacemos .contenidoQueHacemos .contenedorImgQueHacemos .imgQueHacemos {
@@ -285,7 +281,6 @@ main .principal .principal1 .btnPrincipal a {
 }
 
 /* CLIENTES */
-
 .contenedorClientes {
   padding-top: 30px;
   overflow: hidden;
@@ -316,7 +311,6 @@ main .principal .principal1 .btnPrincipal a {
 
 .contenedorClientes .contenidoClientes .itemCliente {
   width: 100%;
-
   height: auto;
   max-width: 100%;
   display: block;
@@ -324,13 +318,7 @@ main .principal .principal1 .btnPrincipal a {
 }
 
 /* QUIENES SOMOS */
-
 .contenedorQuienesSomos {
-
-  /*eliminar después de ubicar elementos*/
-  /* background-image: url(../img/quienesSomos.jpg);
-  background-position: center;
-  background-size: cover; agregar después de ubicar elementos*/
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -346,7 +334,6 @@ main .principal .principal1 .btnPrincipal a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 .contenedorQuienesSomos .contenidoQuienesSomos .quienesSomosH2 {
@@ -553,61 +540,47 @@ main .principal .principal1 .btnPrincipal a {
 
 
 /* FOOTER */
-footer {
+.contenedorFooter {
   background-color: #222223;
 }
 
-footer div {
-  font-size: 18px;
-  color: #bfbebe;
-  font-family: "Open Sans", sans-serif;
+.contenedorFooter .imgLogoFooter {
+  padding-top: 15px;
+  width: 15%;
+  margin: 0 auto;
+}
+
+.contenedorFooter .menuRedesFooter {
+  text-align: center;
   font-weight: 200;
   padding-top: 20px;
 }
 
-footer div a {
-  display: inline;
-  text-decoration: none;
+.contenedorFooter .menuRedesFooter .itemRedes {
+  font-size: 30px;
+  color: #FCFCF7;
+  letter-spacing: 20px;
+}
+
+.contenedorFooter .menuRedesFooter .itemRedes:hover{
   color: #bfbebe;
 }
 
-footer div a:hover {
-  color: #E20034;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-footer .menuRedesFooter ul {
-  padding: 20px;
-}
-
-footer .menuRedesFooter ul li {
-  list-style: none;
-}
-
-footer .menuRedesFooter ul li i {
-  padding: 5px;
-  color: #bfbebe;
-  font-size: 25px;
-}
+.contenedorFooter .dividerFooter {
+  background-color: #FCFCF7;
+  max-height: 2px;
+  width: 80%;
+  }
 
 footer .firma {
   font-size: 14px;
   color: #bfbebe;
   font-family: "Open Sans", sans-serif;
   font-weight: 200;
-  padding-bottom: 10px;
+  
 }
 
-.menuRedesFooter i:hover {
-  transform: scale(1.8);
-  transition: all 0.7s ease-in-out;
-}
 
-.menuRedesFooter li .correo:hover {
-  transform: rotate(360deg);
-  transition: 1.3s ease-in-out;
-}
 
 .estudio {
   font-family: "Montserrat", sans-serif;

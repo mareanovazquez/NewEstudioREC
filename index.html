@@ -218,10 +218,9 @@
                 <img class="imagenFormulario" src="../img/imagenFormulario.jpg" alt="teclado">
             </div>
             <div class="svgFormulario">
-                <img src="./img/ilosogoForm.svg" class="isologo" alt="Isologo Estudio REC">
+                <img src="./img/isologoForm.svg" class="isologo" alt="Isologo Estudio REC">
             </div>
-            <form class="formulario" id="formulario" action="https://formspree.io/f/xqkrkzwv"
-            method="POST">
+            <form class="formulario" id="formulario" action="https://formspree.io/f/xqkrkzwv" method="POST">
                 <div class="formNombre">
                     <label for="nombre" class="form-label">Nombre:</label>
                     <input type="text" class="form-control" id="name" name="name" required>
@@ -232,7 +231,8 @@
                 </div>
                 <div class="formMensaje">
                     <label for="mensaje" class="form-label">Mensaje:</label>
-                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Dejanos tu consulta y te vamos a responder lo antes posible." required></textarea>
+                    <textarea class="form-control" id="message" name="message" rows="4"
+                        placeholder="Dejanos tu consulta y te vamos a responder lo antes posible." required></textarea>
                 </div>
                 <button type="submit" class="btn btn-dark btnEnviar">Enviar</button>
             </form>
@@ -248,26 +248,18 @@
     </section>
 
     <!-- FOOTER START -->
-    <footer class="container-fluid bg-dark">
-        <div class="container telefonos text-center text-white">
-            <p class="text-center text-white"> <span class="estudio">E S T U D I O</span> <span class="rec">R E C</span>
-            </p>
-            <p class="text-center text-white"> • Redacción • Edición • Corrección • </p>
-            <!-- <a href="tel:+5491134600531">+54911 34600531 |</a>
-            <a href="tel:+5491132067800"> +54911 32067800</a> -->
+    <footer class="contenedorFooter">
+        <div class="imgLogoFooter">
+            <img src="./img/logotipoBlancoFooter.svg" alt="">
         </div>
-        <nav class="bg-dark menuRedesFooter">
-            <ul class="nav justify-content-center">
-                <li class="nav-item active"><a class="nav-link text-white" href="#principal"><i
-                            class="fa fa-home fa-2x"></i></a></li>
-                <li class="nav-item active"><a class="nav-link text-white" href="https://www.instagram.com/estudiorec_/"
-                        target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
-                <li class="nav-item active"><a class="nav-link text-white correo"
-                        href="mailto:contacto@estudiorec.com.ar" target="_blank"><i
-                            class="fa fa-envelope fa-2x"></i></a></li>
-            </ul>
+        <nav class="menuRedesFooter">
+            <a class="itemRedes" href="https://www.instagram.com/estudiorec_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a class="itemRedes" href="mailto:contacto@estudiorec.com.ar" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a class="itemRedes" href="./paginas/portfolio.html"><i class="fa-solid fa-folder-open"></i></a>
         </nav>
-        <div class="firma text-center ">
+        <div class="dividerFooter"></div>
+        <div class="firma">
+            <p>&copy; Estudio REC | Todos los derechos reservados</p>
             <p>DISEÑO | Mariano Vazquez para <a href="https://estudiorec.com.ar"> ESTUDIO REC </a></p>
         </div>
     </footer>
