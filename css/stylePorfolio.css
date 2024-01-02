@@ -1,3 +1,4 @@
+
 .mainPortfolio {
     background-image: url(../img/queHacemos.jpg);
     background-size: cover;
@@ -52,6 +53,36 @@
     margin-right: auto;
     margin-bottom: 10px;
 }
+
+.contenedorPortfolio .contenidoPortfolio .tarjeta {
+    /* border-color: #7c7a7a;
+    border-width: 1px;
+    border-style: solid; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f6ee ;
+    box-shadow: 6px 6px 0px 0px rgba(37, 40, 42, .3);
+
+}
+
+.contenedorPortfolio .contenidoPortfolio .tarjeta:hover {
+    box-shadow: 6px 6px 0px 0px rgba(37, 40, 42, 1);
+    transition: .3s;
+
+}
+.contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta{
+    text-align: center;
+    padding: 15px;
+}
+
+.contenedorPortfolio .contenidoPortfolio .tarjeta .footerTarjeta{
+    text-align: center;
+    padding: 15px;
+}
+
 
 .contenedorPortfolio .contenidoPortfolio .card:hover {
     transition: 0.3s;
