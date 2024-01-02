@@ -720,6 +720,7 @@ main .principal .principal1 .btnPrincipal a {
   .contenedorQuienesSomos .contenidoQuienesSomos .quienesSomosH2 {
     font-size: 40px;
   }
+
   .contenedorQuienesSomos .contenidoQuienesSomos .presentacion {
     width: 90%;
   }
@@ -1001,8 +1002,10 @@ main .principal .principal1 .btnPrincipal a {
   /* QUIENES SOMOS */
 
   .contenedorQuienesSomos {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
     padding-top: 30px;
-
   }
 
   .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li {
