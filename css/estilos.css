@@ -824,7 +824,7 @@ main .principal .principal1 .btnPrincipal a {
   header .topBar a {
     color: #0A2E36;
     text-decoration: none;
-    padding-right: 20px;
+    padding-right: 50px;
     font-weight: 700;
     font-size: 13px;
   }
@@ -836,7 +836,7 @@ main .principal .principal1 .btnPrincipal a {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     font-family: 'Poppins', sans-serif;
   }

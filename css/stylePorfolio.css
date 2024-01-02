@@ -1,25 +1,35 @@
-.portfolio {
+.mainPortfolio {
     background-image: url(../img/queHacemos.jpg);
     background-size: cover;
-    height: 45vh;
+    background-position: center;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.portfolio h1 {
-    color: white;
+.mainPortfolio h1 {
+    color: #FCFCF7;
     font-size: 50px;
     letter-spacing: 3mm;
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Crimson Pro', serif;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    text-align: center;
 }
 
 /*loading Portfolio*/
+
 .portfolioLoading {
     height: 2px;
     background-color: #E20034;
+    animation-name: movingLeft;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
+
 
 @keyframes movingLeftP {
     from {
@@ -31,25 +41,24 @@
     }
 }
 
-.portfolioLoading {
-    animation-name: movingLeftP;
-    animation-duration: 10s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
+.contenedorPortfolio .contenidoPortfolio {
+    padding-top: 30px;
 }
 
-.card {
+.contenedorPortfolio .contenidoPortfolio .card {
     border-color: #7c7a7a;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
 
-.card:hover {
-    transform: scale(1.02);
-    transition: 0.7s;
+.contenedorPortfolio .contenidoPortfolio .card:hover {
+    transition: 0.3s;
     border-color: #E20034;
 }
 
+/* MODAL */
 .modal-dialog {
     max-width: 800px;
 }
@@ -101,17 +110,66 @@
 
 /* Entre 768px y 991px */
 /* Bootstrap breakpoints MD y superiores */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .mainPortfolio {
+        height: 40vh;
+    }
 
-/* Estilo para pantallas en orientación portrait (vertical) con un ancho entre 767px y 991px */
-@media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
-    /* Agrega tus reglas de estilo específicas para pantallas en esta excepción aquí */
+    .mainPortfolio h1 {
+        font-size: 60px;
+    }
+
+    .contenedorPortfolio .contenidoPortfolio {
+
+        /*       display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Tres columnas iguales */
+        /* gap: 20px; /* Espacio entre las tarjetas */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+    .contenedorPortfolio .contenidoPortfolio .card {
+        width: 40%;
+        
+    }
+
+    
+    /* contenedorPortfolio .contenidoPortfolio  .unicefAdolescencia {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    }
+
+    .contenedorPortfolio .contenidoPortfolio .ratzkierArquitectura {
+        grid-column: 2 / 2;
+    grid-row: 1;
+
+    } */
 }
 
 /* Entre 992px y 1199px */
 /* Bootstrap breakpoints LG y superiores */
 @media (min-width: 992px) {
+
     /* Tus estilos para dispositivos large y superiores van aquí */
+    .mainPortfolio {
+        height: 50vh;
+    }
+
+    .mainPortfolio h1 {
+        font-size: 70px;
+    }
+
+    .contenedorPortfolio .contenidoPortfolio {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .contenedorPortfolio .contenidoPortfolio .card {
+        width: 30%;
+        
+    }
 }
 
 /* Desde 1200px en adelante */
