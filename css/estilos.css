@@ -269,10 +269,22 @@ main .principal .principal1 .btnPrincipal a {
   border-radius: 5px;
   box-shadow: 4px 3px 4px 0px rgb(34, 34, 35);
 }
+.contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li:last-child {
+  list-style: none;
+  padding: 5px;
+  background-color: #25282A;
+  color: #FCFCF7;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  
+}
 
-.contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li a {
+.contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li:last-child a
+{
   text-decoration: none;
-  color: #222223;
+  color: #FCFCF7;
+  
 }
 
 .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li:hover {
