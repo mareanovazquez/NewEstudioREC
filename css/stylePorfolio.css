@@ -1,4 +1,3 @@
-
 .mainPortfolio {
     background-image: url(../img/queHacemos.jpg);
     background-size: cover;
@@ -46,24 +45,14 @@
     padding-top: 30px;
 }
 
-.contenedorPortfolio .contenidoPortfolio .card {
-    border-color: #7c7a7a;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-}
 
 .contenedorPortfolio .contenidoPortfolio .tarjeta {
-    /* border-color: #7c7a7a;
-    border-width: 1px;
-    border-style: solid; */
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
     border-radius: 5px;
-    background-color: #f9f6ee ;
+    background-color: #f9f6ee;
     box-shadow: 6px 6px 0px 0px rgba(37, 40, 42, .3);
 
 }
@@ -75,66 +64,75 @@
 
 .contenedorPortfolio .contenidoPortfolio .tarjeta .cintilloTarjeta {
     padding-top: 10px;
-    }
+
+}
+
+.contenedorPortfolio .contenidoPortfolio .tarjeta .cintilloTarjeta h6 {
+    font-size: 12px;
+}
 
 .contenedorPortfolio .contenidoPortfolio .unicefAdolescencia .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .coalitionPlus .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .pulsoAmbiental .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .unicefPlanea .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .farnIaf .cintilloTarjeta h6,
-.contenedorPortfolio .contenidoPortfolio .matedulab .cintilloTarjeta h6
-{
+.contenedorPortfolio .contenidoPortfolio .matedulab .cintilloTarjeta h6 {
     background-color: #FFB100;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     display: inline-block;
     color: #FCFCF7;
-    padding: 10px;
+    padding: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
-.contenedorPortfolio .contenidoPortfolio .ratzkierArquitectura .cintilloTarjeta h6, 
+.contenedorPortfolio .contenidoPortfolio .ratzkierArquitectura .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .arqAs .cintilloTarjeta h6,
-.contenedorPortfolio .contenidoPortfolio .epicaServiciosTuristicos .cintilloTarjeta h6{
+.contenedorPortfolio .contenidoPortfolio .epicaServiciosTuristicos .cintilloTarjeta h6 {
     background-color: #006C67;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     display: inline-block;
     color: #FCFCF7;
-    padding: 10px;
+    padding: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
 .contenedorPortfolio .contenidoPortfolio .estiloPropio .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .huespedSexualidad .cintilloTarjeta h6,
-.contenedorPortfolio .contenidoPortfolio .huespedVacunas .cintilloTarjeta h6{
+.contenedorPortfolio .contenidoPortfolio .huespedVacunas .cintilloTarjeta h6 {
     background-color: #E20034;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     display: inline-block;
     color: #FCFCF7;
-    padding: 10px;
+    padding: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
-.contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta{
+.contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta {
     text-align: center;
     padding: 15px;
 }
 
-.contenedorPortfolio .contenidoPortfolio .card:hover {
-    transition: 0.3s;
-    border-color: #E20034;
+.contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta h5{
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 /* MODAL */
 .modal-dialog {
     max-width: 800px;
 }
-
+.modal-title a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #222223;
+}
 .modal-title a:hover {
     font-weight: 600;
     text-decoration: none;
@@ -192,10 +190,6 @@
     }
 
     .contenedorPortfolio .contenidoPortfolio {
-
-        /*       display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Tres columnas iguales */
-        /* gap: 20px; /* Espacio entre las tarjetas */
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -205,20 +199,12 @@
 
     .contenedorPortfolio .contenidoPortfolio .tarjeta {
         width: 40%;
-        
     }
 
+    .contenedorPortfolio .contenidoPortfolio .tarjeta .cintilloTarjeta h6 {
+        font-size: 13px;
+    }
     
-    /* contenedorPortfolio .contenidoPortfolio  .unicefAdolescencia {
-    grid-column: 1 / 2;
-    grid-row: 1;
-    }
-
-    .contenedorPortfolio .contenidoPortfolio .ratzkierArquitectura {
-        grid-column: 2 / 2;
-    grid-row: 1;
-
-    } */
 }
 
 /* Entre 992px y 1199px */
@@ -238,9 +224,13 @@
         width: 80%;
         margin: 0 auto;
     }
+
     .contenedorPortfolio .contenidoPortfolio .tarjeta {
         width: 30%;
-        
+    }
+
+    .contenedorPortfolio .contenidoPortfolio .tarjeta .cintilloTarjeta h6 {
+        font-size: 12px;
     }
 }
 
@@ -248,4 +238,9 @@
 /* Bootstrap breakpoints LG y superiores */
 @media (min-width: 1200px) {
     /* Tus estilos para dispositivos extra large y superiores van aquí */
+
+    .contenedorPortfolio .contenidoPortfolio .tarjeta .cintilloTarjeta h6 {
+        font-size: 14px;
+    }
+
 }

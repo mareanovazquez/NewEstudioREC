@@ -675,7 +675,7 @@ main .principal .principal1 .btnPrincipal a {
 
   /* MAIN */
   main .principal .principal1 .textPrincipal {
-    font-size: 50px;
+    font-size: 45px;
   }
 
 
@@ -870,12 +870,10 @@ main .principal .principal1 .btnPrincipal a {
 
   header .navBar div img {
     width: 200px;
-    padding-left: 20px;
-
-  }
+    }
 
   header .navBar a {
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #222223;
@@ -949,7 +947,7 @@ main .principal .principal1 .btnPrincipal a {
 
   main .principal .principal1 .textPrincipal {
     text-align: left;
-    font-size: 70px;
+    font-size: 60px;
   }
 
   main .principal .principal1 .logotipoH1 {
