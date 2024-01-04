@@ -55,6 +55,11 @@
     background-color: #f9f6ee;
     box-shadow: 6px 6px 0px 0px rgba(37, 40, 42, .3);
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .contenedorPortfolio .contenidoPortfolio .tarjeta:hover {
@@ -64,6 +69,7 @@
 
 .contenedorPortfolio .contenidoPortfolio .tarjeta .cintilloTarjeta {
     padding-top: 10px;
+    align-self: flex-start;
 
 }
 
@@ -111,7 +117,7 @@
     padding: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-}
+    }
 
 .contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta {
     text-align: center;
@@ -124,6 +130,9 @@
     font-weight: 700;
 }
 
+.contenedorPortfolio .contenidoPortfolio .tarjeta .imgTarjeta img{
+    border-radius: 5px;
+}
 /* MODAL */
 .modal-dialog {
     max-width: 800px;
@@ -193,7 +202,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: stretch;
+        align-items: center;
         flex-wrap: wrap;
     }
 
@@ -204,6 +213,10 @@
     .contenedorPortfolio .contenidoPortfolio .tarjeta .cintilloTarjeta h6 {
         font-size: 13px;
     }
+
+    .contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta h5{
+        font-size: 19px;
+        }
     
 }
 
@@ -232,6 +245,15 @@
     .contenedorPortfolio .contenidoPortfolio .tarjeta .cintilloTarjeta h6 {
         font-size: 12px;
     }
+
+    .contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta h5{
+        font-size: 18px;
+    }
+
+    .contenedorPortfolio .contenidoPortfolio .ratzkierArquitectura .tituloTarjeta h5, .contenedorPortfolio .contenidoPortfolio .epicaServiciosTuristicos .tituloTarjeta h5{
+        font-size: 16px;
+    }
+
 }
 
 /* Desde 1200px en adelante */
@@ -239,6 +261,9 @@
 @media (min-width: 1200px) {
     /* Tus estilos para dispositivos extra large y superiores van aquí */
 
+    .contenedorPortfolio .contenidoPortfolio .tarjeta .imgTarjeta {
+        padding-bottom: 20px;
+        }
     .contenedorPortfolio .contenidoPortfolio .tarjeta .cintilloTarjeta h6 {
         font-size: 14px;
     }
