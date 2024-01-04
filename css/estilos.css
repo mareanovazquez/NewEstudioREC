@@ -173,9 +173,9 @@ header .toggle {
 
 /* MAIN */
 main {
-  background-image: url(../img/estudioRecPrincipal.png);
+  background-image: url(../img/estudioRecMain.png);
   background-size: cover;
-  background-position: left;
+  background-position: center;
   height: 100vh;
   padding-top: 50px;
 }
@@ -934,7 +934,8 @@ main .principal .principal1 .btnPrincipal a {
   /* MAIN */
 
   main {
-    background: linear-gradient(90deg, rgba(252, 252, 247, 0.8071603641456583) 0%, rgba(252, 252, 247, 0.16290266106442575) 36%), url('../img/estudioRecPrincipal.png');
+    /* background: linear-gradient(90deg, rgba(252, 252, 247, 0.8071603641456583) 0%, rgba(252, 252, 247, 0.16290266106442575) 36%), url('../img/estudioRecMain.png'); */
+    background-image: url(../img/estudioRecMain.png);
     position: relative;
     z-index: -2;
     top: -50px;
