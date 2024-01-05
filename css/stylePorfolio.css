@@ -53,7 +53,8 @@
     margin-bottom: 20px;
     border-radius: 5px;
     background-color: #f9f6ee;
-    box-shadow: 6px 6px 0px 0px rgba(37, 40, 42, .3);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: 6px 6px 0px 0px rgba(37, 40, 42, .3); */
 
     display: flex;
     flex-direction: column;
@@ -63,7 +64,7 @@
 }
 
 .contenedorPortfolio .contenidoPortfolio .tarjeta:hover {
-    box-shadow: 6px 6px 0px 0px rgba(37, 40, 42, 1);
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
     transition: .3s;
 }
 
@@ -121,22 +122,22 @@
 
 .contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta {
     text-align: center;
-    padding: 15px;
-}
+    }
 
 .contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta h5{
-    font-size: 22px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
+.contenedorPortfolio .contenidoPortfolio .tarjeta .imgTarjeta {
+    padding: 20px;
+}
 .contenedorPortfolio .contenidoPortfolio .tarjeta .imgTarjeta img{
     border-radius: 5px;
 }
 /* MODAL */
-.modal-dialog {
-    max-width: 800px;
-}
+
 .modal-title a {
     font-weight: 600;
     text-decoration: none;
@@ -147,16 +148,6 @@
     text-decoration: none;
     transition: 0.5s;
     color: #E20034;
-}
-
-.carousel-control-prev-icon:hover {
-    transform: rotate(-360deg);
-    transition: 0.8s;
-}
-
-.carousel-control-next-icon:hover {
-    transform: rotate(360deg);
-    transition: 0.8s;
 }
 
 .carousel-control-prev i {
@@ -247,11 +238,11 @@
     }
 
     .contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta h5{
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .contenedorPortfolio .contenidoPortfolio .ratzkierArquitectura .tituloTarjeta h5, .contenedorPortfolio .contenidoPortfolio .epicaServiciosTuristicos .tituloTarjeta h5{
-        font-size: 16px;
+        font-size: 18px;
     }
 
 }
@@ -261,11 +252,11 @@
 @media (min-width: 1200px) {
     /* Tus estilos para dispositivos extra large y superiores van aquí */
 
-    .contenedorPortfolio .contenidoPortfolio .tarjeta .imgTarjeta {
+    /* .contenedorPortfolio .contenidoPortfolio .tarjeta .imgTarjeta {
         padding-bottom: 20px;
-        }
+        } */
     .contenedorPortfolio .contenidoPortfolio .tarjeta .cintilloTarjeta h6 {
-        font-size: 14px;
+        font-size: 12px;
     }
 
 }

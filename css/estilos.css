@@ -294,6 +294,7 @@ main .principal .imgMainMobile img {
 
 }
 
+
 .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li:last-child a {
   text-decoration: none;
   color: #FCFCF7;
@@ -303,6 +304,66 @@ main .principal .imgMainMobile img {
 .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li:hover {
   transform: translateX(3px);
   transition: 0.3s;
+}
+
+.linkPortfolio {
+  --primary-color: #222223;
+  --secondary-color: #FCFCF7;
+  --hover-color: #25282A;
+  --arrow-width: 10px;
+  --arrow-stroke: 2px;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  display: flex;
+  transition: 0.2s background;
+  align-items: center;
+  gap: 0.6em;
+  padding: 5px;
+  
+}
+
+.linkPortfolio .arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkPortfolio .arrow {
+  margin-top: 1px;
+  width: var(--arrow-width);
+  background: var(--primary-color);
+  height: var(--arrow-stroke);
+  position: relative;
+  transition: 0.2s;
+  
+}
+
+.linkPortfolio .arrow::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  border: solid var(--secondary-color);
+  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  display: inline-block;
+  top: -3px;
+  right: 3px;
+  transition: 0.2s;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+.linkPortfolio:hover {
+  background-color: var(--hover-color);
+}
+
+.linkPortfolio:hover .arrow {
+  background: var(--secondary-color);
+  
+}
+
+.linkPortfolio:hover .arrow:before {
+  right: 0;
+  font-weight: 900;
 }
 
 /* CLIENTES */
@@ -392,7 +453,7 @@ main .principal .imgMainMobile img {
   border-radius: 5px;
   padding: 10px;
   background: #f9f6ee;
-  box-shadow: 6px 6px 0px 0px rgba(37, 40, 42, 1);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -451,7 +512,7 @@ main .principal .imgMainMobile img {
   border-radius: 5px;
   padding: 10px;
   background: #f9f6ee;
-  box-shadow: 6px 6px 0px 0px rgba(37, 40, 42, 1);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -964,7 +1025,7 @@ main .principal .imgMainMobile img {
 
   main .principal .principal1 {
     align-items: flex-start;
-    width: 80%;
+    width: 60%;
     padding-left: 20px;
     margin-left: 0;
     margin-right: 0;
@@ -972,7 +1033,7 @@ main .principal .imgMainMobile img {
 
   main .principal .principal1 .textPrincipal {
     text-align: left;
-    font-size: 50px;
+    font-size: 55px;
   }
 
   main .principal .principal1 .logotipoH1 {
