@@ -173,9 +173,9 @@ header .toggle {
 
 /* MAIN */
 main {
- background-image: url('../img/estudioRecPrincipalMobile.png');
- background-size: cover;
- background-position: center;
+  background-image: url('../img/estudioRecPrincipalMobile.png');
+  background-size: cover;
+  background-position: center;
   height: 100vh;
   padding-top: 50px;
 }
@@ -282,6 +282,7 @@ main .principal .imgMainMobile img {
   border-radius: 5px;
   box-shadow: 4px 3px 4px 0px rgb(34, 34, 35);
 }
+
 .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li:last-child {
   list-style: none;
   padding: 5px;
@@ -290,14 +291,13 @@ main .principal .imgMainMobile img {
   font-size: 16px;
   margin-bottom: 10px;
   border-radius: 5px;
-  
+
 }
 
-.contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li:last-child a
-{
+.contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li:last-child a {
   text-decoration: none;
   color: #FCFCF7;
-  
+
 }
 
 .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li:hover {
@@ -883,7 +883,7 @@ main .principal .imgMainMobile img {
 
   header .navBar div img {
     width: 200px;
-    }
+  }
 
   header .navBar a {
     font-size: 15px;
@@ -922,7 +922,6 @@ main .principal .imgMainMobile img {
   }
 
   .itemMenu:hover {
-    font-weight: 600;
     transition: 0.2s;
     color: #E20034;
     border-bottom-style: solid;
@@ -956,19 +955,19 @@ main .principal .imgMainMobile img {
     left: 0;
   }
 
- main .principal {
+  main .principal {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-  } 
+  }
 
   main .principal .principal1 {
-   align-items: flex-start;
-  width: 80%;   
-  padding-left: 20px; 
-  margin-left: 0;
-  margin-right: 0;
+    align-items: flex-start;
+    width: 80%;
+    padding-left: 20px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   main .principal .principal1 .textPrincipal {
@@ -980,9 +979,9 @@ main .principal .imgMainMobile img {
     display: none;
   }
 
- main .principal .imgMainMobile {
+  main .principal .imgMainMobile {
     display: none;
-  } 
+  }
 
   /* QUÉ HACEMOS */
 
