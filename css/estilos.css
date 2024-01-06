@@ -218,24 +218,14 @@ main .principal .principal1 .logotipoH1 {
   padding-bottom: 10px;
 }
 
+main .principal .principal1 .btnPrincipal {
+  margin-top: 30px;
+}
 
 main .principal .principal1 .btnPrincipal a {
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
   color: #FCFCF7;
-}
-
-main .principal .imgMainMobile {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-main .principal .imgMainMobile img {
-  width: 70%;
-  margin: 0 auto;
 }
 
 /* QUE HACEMOS */
@@ -291,14 +281,11 @@ main .principal .imgMainMobile img {
   font-size: 16px;
   margin-bottom: 10px;
   border-radius: 5px;
-
 }
-
 
 .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li:last-child a {
   text-decoration: none;
   color: #FCFCF7;
-
 }
 
 .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li:hover {
@@ -319,7 +306,7 @@ main .principal .imgMainMobile img {
   align-items: center;
   gap: 0.6em;
   padding: 5px;
-  
+
 }
 
 .linkPortfolio .arrow-wrapper {
@@ -335,7 +322,7 @@ main .principal .imgMainMobile img {
   height: var(--arrow-stroke);
   position: relative;
   transition: 0.2s;
-  
+
 }
 
 .linkPortfolio .arrow::before {
@@ -358,7 +345,7 @@ main .principal .imgMainMobile img {
 
 .linkPortfolio:hover .arrow {
   background: var(--secondary-color);
-  
+
 }
 
 .linkPortfolio:hover .arrow:before {
@@ -453,7 +440,7 @@ main .principal .imgMainMobile img {
   border-radius: 5px;
   padding: 10px;
   background: #f9f6ee;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -512,7 +499,7 @@ main .principal .imgMainMobile img {
   border-radius: 5px;
   padding: 10px;
   background: #f9f6ee;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -610,8 +597,10 @@ main .principal .imgMainMobile img {
 .contenedorContacto .contenidoContacto .formulario {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contenedorContacto .contenidoContacto .formulario .btnEnviar {
@@ -659,10 +648,11 @@ main .principal .imgMainMobile img {
 
 .contenedorFooter .divider {
   width: 100%;
-  height: 1px;
-  background-color: #7c7a7a;
+  height: .41px;
+  background-color: #222223;
+  box-shadow: rgba(252, 252, 247, 0.4) 0px 2px 4px, rgba(252, 252, 247, 0.3) 0px 7px 13px -3px, rgba(252, 252, 247, 0.2) 0px -3px 0px inset;
   width: 80%;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -670,7 +660,7 @@ main .principal .imgMainMobile img {
 
 .contenedorFooter .firma {
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   color: #bfbebe;
   font-family: "Open Sans", sans-serif;
   font-weight: 200;
@@ -752,6 +742,14 @@ main .principal .imgMainMobile img {
     font-size: 45px;
   }
 
+  /* CONTACTO */
+
+  .contenedorContacto .contenidoContacto .formulario {
+
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   /* FOOTER */
   .contenedorFooter .imgLogoFooter {
@@ -823,6 +821,7 @@ main .principal .imgMainMobile img {
 
   .contenedorQuienesSomos .contenidoNosotras .laura {
     width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   }
 
   .contenedorQuienesSomos .contenidoNosotras .laura .lauraFoto img {
@@ -836,6 +835,7 @@ main .principal .imgMainMobile img {
 
   .contenedorQuienesSomos .contenidoNosotras .sol {
     width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   }
 
   .contenedorQuienesSomos .contenidoNosotras .sol .solFoto img {
