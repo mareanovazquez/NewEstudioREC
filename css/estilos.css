@@ -294,13 +294,8 @@ main .principal .principal1 .btnPrincipal a {
 }
 
 .linkPortfolio {
-  --primary-color: #222223;
-  --secondary-color: #FCFCF7;
-  --hover-color: #25282A;
-  --arrow-width: 10px;
-  --arrow-stroke: 2px;
-  color: var(--secondary-color);
-  background: var(--primary-color);
+  color: #FCFCF7;
+  background: #222223;
   display: flex;
   transition: 0.2s background;
   align-items: center;
@@ -317,9 +312,9 @@ main .principal .principal1 .btnPrincipal a {
 
 .linkPortfolio .arrow {
   margin-top: 1px;
-  width: var(--arrow-width);
-  background: var(--primary-color);
-  height: var(--arrow-stroke);
+  width: 10px;
+  background: #222223;
+  height: 2px;
   position: relative;
   transition: 0.2s;
 
@@ -329,8 +324,8 @@ main .principal .principal1 .btnPrincipal a {
   content: "";
   box-sizing: border-box;
   position: absolute;
-  border: solid var(--secondary-color);
-  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  border: solid #FCFCF7;
+  border-width: 0 2px 2px 0;
   display: inline-block;
   top: -3px;
   right: 3px;
@@ -340,11 +335,11 @@ main .principal .principal1 .btnPrincipal a {
 }
 
 .linkPortfolio:hover {
-  background-color: var(--hover-color);
+  background-color: #25282A;
 }
 
 .linkPortfolio:hover .arrow {
-  background: var(--secondary-color);
+  background: #FCFCF7;
 
 }
 
