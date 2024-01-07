@@ -240,6 +240,7 @@ main .principal .principal1 .btnPrincipal a {
   font-size: 30px;
   text-align: center;
   padding-bottom: 10px;
+  display: none;
 }
 
 .contenedorQueHacemos .contenidoQueHacemos .contenedorImgQueHacemos {
@@ -408,7 +409,7 @@ main .principal .principal1 .btnPrincipal a {
 
 .contenedorQuienesSomos .contenidoQuienesSomos .quienesSomosH2 {
   font-family: 'Poppins', sans-serif;
-  color: #FCFCF7;
+  color: transparent;
   font-weight: 800;
   font-size: 30px;
   text-align: center;

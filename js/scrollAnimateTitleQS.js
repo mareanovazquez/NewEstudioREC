@@ -7,7 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
         if (window.scrollY>=quienesSomosOffSetTop) {
             titleQuienesSomos.classList.add('animate__fadeInLeft');
             titleQuienesSomos.classList.add('animate__slow');
+            titleQuienesSomos.style.color = '#FCFCF7';
+
         }
+        
     })
     
 });

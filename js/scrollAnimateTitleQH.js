@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (window.scrollY>=queHacemosOffSetTop) {
             titleQueHacemos.classList.add('animate__fadeInLeft');
             titleQueHacemos.classList.add('animate__slow')
+            titleQueHacemos.style.display = 'block';
         }
     })
     
