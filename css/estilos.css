@@ -409,7 +409,7 @@ main .principal .principal1 .btnPrincipal a {
 
 .contenedorQuienesSomos .contenidoQuienesSomos .quienesSomosH2 {
   font-family: 'Poppins', sans-serif;
-  color: transparent;
+  color: trans;
   font-weight: 800;
   font-size: 30px;
   text-align: center;
