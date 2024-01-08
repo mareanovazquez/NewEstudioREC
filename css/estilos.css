@@ -69,7 +69,7 @@ header .showMenu .navBarCelu a {
   text-decoration: none;
   color: #FCFCF7;
   font-size: 22px;
-  padding-left: 10px;
+  padding-left: 30px;
 }
 
 header .showMenu .navBarCelu .navBarRRSS {
@@ -87,7 +87,7 @@ header .showMenu .navBarCelu .navBarRRSS {
 header .showMenu .navBarCelu a:hover {
   transition: 0.2s;
   color: #E20034;
-}
+  }
 
 header .showMenu .navBarCelu .navBarRRSS a {
   text-decoration: none;
@@ -202,11 +202,18 @@ main .principal .principal1 {
 }
 
 main .principal .principal1 .textPrincipal {
+      opacity: 0; /* Inicialmente establecemos la opacidad en 0 */
+    transition: opacity 0.3s ease-in-out; /* Ajusta la duración y la función de temporización según tus preferencias */
+  
+}
+
+main .principal .principal1 .textPrincipal.show {
   font-family: 'Crimson Pro', serif;
   color: #25282A;
   text-align: center;
   font-weight: 600;
   font-size: 30px;
+  opacity: 1;
 
   /* Desplazamiento horizontal, desplazamiento vertical, desenfoque y color de la sombra */
   text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.8);
@@ -228,7 +235,7 @@ main .principal .principal1 .btnPrincipal {
 }
 
 main .principal .principal1 .btnPrincipal.visible {
-  display: block;
+  display: inline-block;
   transition: .5s ease-in-out;
   margin-top: 30px;
 }
@@ -237,6 +244,14 @@ main .principal .principal1 .btnPrincipal a {
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
   color: #FCFCF7;
+}
+
+main .principal .principal1 .btnPrincipal:hover {
+  background-color: #FCFCF7;
+  border-color: #E20034;
+  border-width: 1px;
+  border-radius: 5px;
+  color: #E20034;
 }
 
 /* QUE HACEMOS */
@@ -746,7 +761,7 @@ main .principal .principal1 .btnPrincipal a {
 @media (min-width: 576px) {
 
   /* MAIN */
-  main .principal .principal1 .textPrincipal {
+  main .principal .principal1 .textPrincipal.show {
     font-size: 45px;
   }
 
@@ -933,6 +948,8 @@ main .principal .principal1 .btnPrincipal a {
     justify-content: space-evenly;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+    position: relative;
+    z-index: 22222;
   }
 
   header .navBar .navBarLogotipo {
@@ -1019,7 +1036,7 @@ main .principal .principal1 .btnPrincipal a {
     background-position: center;
     background-size: cover;
     position: relative;
-    z-index: -2;
+    z-index: 1;
     top: -50px;
     left: 0;
   }
@@ -1039,7 +1056,7 @@ main .principal .principal1 .btnPrincipal a {
     margin-right: 0;
   }
 
-  main .principal .principal1 .textPrincipal {
+  main .principal .principal1 .textPrincipal.show {
     text-align: left;
     font-size: 55px;
   }
@@ -1054,6 +1071,10 @@ main .principal .principal1 .btnPrincipal a {
 
   main .principal .imgMainMobile {
     display: none;
+  }
+
+  main .principal .principal1 .btnPrincipal {
+    z-index: 2;
   }
 
   /* QUÉ HACEMOS */

@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
             if (i < text.length) {
                 element.textContent += text.charAt(i);
                 i++;
+                element.classList.add('show'); // Agrega la clase para mostrar el carácter con transición
+
             } else {
                 clearInterval(intervalId);
                 if (callback) {
@@ -30,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     line2MainElement.textContent = "";
 
     // Define la velocidad de la animación
-    const typingSpeed = 65; // Ajusta la velocidad según tu preferencia
+    const typingSpeed = 75; // Ajusta la velocidad según tu preferencia
 
     // Aplica la animación a cada elemento
     typeWriter(line1MainElement, line1Text, typingSpeed, function () {
@@ -41,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
             logotipoH1.classList.add('visible')
             btnPrincipalElement.style.display = 'block';
             btnPrincipalElement.style.marginTop='30px'
+            
         });
     });
 });
