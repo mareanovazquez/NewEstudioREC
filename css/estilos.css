@@ -370,10 +370,9 @@ main .principal .principal1 .btnPrincipal:hover {
 
 }
 
-.linkPortfolio:hover .arrow:before {
+.linkPortfolio:hover .arrow::before {
   right: 0;
-  font-weight: 900;
-}
+  }
 
 /* CLIENTES */
 .contenedorClientes {
