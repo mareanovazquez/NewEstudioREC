@@ -208,17 +208,28 @@ main .principal .principal1 .textPrincipal {
   font-weight: 600;
   font-size: 30px;
 
-
   /* Desplazamiento horizontal, desplazamiento vertical, desenfoque y color de la sombra */
   text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.8);
 }
 
 main .principal .principal1 .logotipoH1 {
+  display: none;
+
+}
+
+main .principal .principal1 .logotipoH1.visible {
   filter: drop-shadow(3px 5px 6px #7c7a7a);
   padding-bottom: 10px;
+  display: block;
 }
 
 main .principal .principal1 .btnPrincipal {
+  display: none;
+}
+
+main .principal .principal1 .btnPrincipal.visible {
+  display: block;
+  transition: .5s ease-in-out;
   margin-top: 30px;
 }
 
@@ -369,7 +380,7 @@ main .principal .principal1 .btnPrincipal a {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   /* Crea 12 columnas con el mismo ancho */
-   /* Espacio entre las imágenes (ajusta según tus necesidades) */
+  /* Espacio entre las imágenes (ajusta según tus necesidades) */
   overflow: hidden;
   /* oculta las imágenes que están fuera del ancho máximo */
   padding-top: 30px;
@@ -1034,6 +1045,10 @@ main .principal .principal1 .btnPrincipal a {
   }
 
   main .principal .principal1 .logotipoH1 {
+    display: none;
+  }
+
+  main .principal .principal1 .logotipoH1.visible {
     display: none;
   }
 
