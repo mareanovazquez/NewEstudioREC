@@ -173,16 +173,16 @@ header .toggle {
 
 /* MAIN */
 main {
-  background: linear-gradient(180deg, rgba(193,197,196,1) 11%, rgba(220,222,219,1) 34%, rgba(252,252,247,1) 70%, rgba(193,197,196,0.6054796918767507) 91%), url('../img/estudioRecPrincipal1Mobile.png');
+  background: linear-gradient(180deg, rgba(193,197,196,1) 11%, rgba(220,222,219,1) 34%, rgba(252,252,247,1) 70%, rgba(193,197,196,0.2) 91%), url('../img/estudioRecPrincipal1Mobile.png');
   /* background-image: url('../img/estudioRecPrincipal1Mobile.png'); */
   background-size: cover;
   background-position: bottom;
-  height: 100vh;
-  padding-top: 50px;
+  height: 90vh;
+  padding-top: 20px;
 }
 
 main .principal {
-  height: 90vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
