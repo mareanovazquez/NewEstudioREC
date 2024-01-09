@@ -275,6 +275,7 @@ main .principal .principal1 .btnPrincipal:hover {
 .contenedorQueHacemos .contenidoQueHacemos .contenedorImgQueHacemos {
   width: 90%;
   margin: 0 auto;
+  display: none;
 }
 
 .contenedorQueHacemos .contenidoQueHacemos .contenedorImgQueHacemos .imgQueHacemos {
