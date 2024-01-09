@@ -173,7 +173,7 @@ header .toggle {
 
 /* MAIN */
 main {
-  background-image: url('../img/estudioRecPrincipal4.png');
+  background-image: url('../img/estudioRecPrincipal4Mobile.png');
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -423,7 +423,7 @@ main .principal .principal1 .btnPrincipal:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #286140;
+  background: #395CAD;
 }
 
 .contenedorQuienesSomos .contenidoQuienesSomos {
@@ -820,8 +820,8 @@ main .principal .principal1 .btnPrincipal:hover {
 
   .contenedorQuienesSomos {
     width: 100%;
-    background: #286140;
-    background: linear-gradient(0deg, rgba(252, 252, 247, 1) 40%, rgba(40, 97, 64, 1) 40%);
+    background: #395CAD;
+    background: linear-gradient(0deg, rgba(252, 252, 247, 1) 40%, rgba(58, 93, 174, 1) 40%);
   }
 
   .contenedorQuienesSomos .contenidoQuienesSomos .quienesSomosH2 {
@@ -838,8 +838,7 @@ main .principal .principal1 .btnPrincipal:hover {
     justify-content: space-evenly;
     align-items: center;
     width: 90%;
-
-
+color: #bfbebe;
   }
 
   .contenedorQuienesSomos .contenidoNosotras .laura {
