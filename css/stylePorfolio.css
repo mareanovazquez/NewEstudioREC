@@ -85,7 +85,7 @@
 .contenedorPortfolio .contenidoPortfolio .farnIaf .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .matedulab .cintilloTarjeta h6 {
     background-color: #FFB100;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 600;
     display: inline-block;
     color: #FCFCF7;
@@ -98,7 +98,7 @@
 .contenedorPortfolio .contenidoPortfolio .arqAs .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .epicaServiciosTuristicos .cintilloTarjeta h6 {
     background-color: #006C67;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 600;
     display: inline-block;
     color: #FCFCF7;
@@ -111,7 +111,7 @@
 .contenedorPortfolio .contenidoPortfolio .huespedSexualidad .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .huespedVacunas .cintilloTarjeta h6 {
     background-color: #E20034;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 600;
     display: inline-block;
     color: #FCFCF7;
@@ -126,8 +126,8 @@
 
 .contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta h5{
     font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-family: 'Sora', sans-serif; 
+    font-weight: 600;
 }
 
 .contenedorPortfolio .contenidoPortfolio .tarjeta .imgTarjeta {
