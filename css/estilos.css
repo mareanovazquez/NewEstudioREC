@@ -173,11 +173,11 @@ header .toggle {
 
 /* MAIN */
 main {
-  background-image: url('../img/estudioRecPrincipal4Mobile.png');
+  background-image: url('../img/estudioRecPrincipalMobile.png');
   background-size: cover;
-  background-position: bottom;
+  background-position: left;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 100vh;
   padding-top: 20px;
 }
 
@@ -583,7 +583,7 @@ main .principal .principal1 .btnPrincipal:hover {
 
 /* CONTACTO */
 .contenedorContacto {
-  background-image: url(../img/imagenFormulario_Desenfoque.jpg);
+  background-image: url('../img/imagenFormulario_Desenfoque.jpg');
   background-size: cover;
   width: 90%;
   margin-left: auto;
@@ -1049,7 +1049,7 @@ main .principal .principal1 .btnPrincipal:hover {
   /* MAIN */
 
   main {
-    background-image: url('../img/estudioRecPrincipal4.png');
+    background-image: url('../img/estudioRecPrincipal.png');
     background-position: top;
     background-size: cover;
     position: relative;
