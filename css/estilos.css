@@ -173,7 +173,7 @@ header .toggle {
 
 /* MAIN */
 main {
-  background-image: url('../img/estudioRecPrincipalMobile.png');
+  background-image: url('../img/estudioRecPrincipal4Mobile.png');
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
@@ -1049,7 +1049,7 @@ main .principal .principal1 .btnPrincipal:hover {
   /* MAIN */
 
   main {
-    background-image: url('../img/estudioRecPrincipal.png');
+    background-image: url('../img/estudioRecPrincipal4.png');
     background-position: top;
     background-size: cover;
     position: relative;
