@@ -109,17 +109,17 @@ header .toggle {
   /* reducido en 10px */
   height: 60px;
   /* reducido en 10px */
-  background-color: rgba(252, 252, 247, 0.6);
+  background-color: rgba(252, 252, 247, 1);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   position: fixed;
-  right: 25px;
-  top: 25px;
+  right: 30px;
+  top: 30px;
   overflow: hidden;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 50%;
   z-index: 8888;
 }
@@ -129,7 +129,7 @@ header .toggle {
   position: relative;
   width: 40px;
   height: 4px;
-  background: #E20034;
+  background: #25282A;
   border-radius: 10px;
   transition: 0.5s;
   ;
@@ -139,6 +139,7 @@ header .toggle {
 .toggle span:nth-child(1) {
   transform: translateY(-15px);
   width: 30px;
+  
   /* left: 15px; */
 }
 
@@ -146,6 +147,7 @@ header .toggle {
   width: 40px;
   transform: translateY(1px) rotate(45deg);
   transition-delay: 0.125s;
+  background-color: #E20034;
 }
 
 .toggle span:nth-child(2) {
@@ -158,6 +160,7 @@ header .toggle {
   width: 40px;
   transform: translateY(-2px) rotate(315deg);
   transition-delay: 0.25s;
+  background-color: #E20034;
 }
 
 .toggle span:nth-child(3) {
@@ -211,10 +214,10 @@ main .principal .principal1 .textPrincipal {
 }
 
 main .principal .principal1 .textPrincipal.show {
-  font-family: 'Crimson Pro', serif;
+  font-family: "Manrope", sans-serif;
   color: #25282A;
   text-align: center;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 30px;
   opacity: 1;
 
@@ -319,10 +322,6 @@ main .principal .principal1 .btnPrincipal:hover {
   color: #FCFCF7;
 }
 
-.contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li:hover {
-  transform: translateX(3px);
-  transition: 0.3s;
-}
 
 .linkPortfolio {
   color: #FCFCF7;
@@ -426,7 +425,7 @@ main .principal .principal1 .btnPrincipal:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #395CAD;
+  background: #C70039;
 }
 
 .contenedorQuienesSomos .contenidoQuienesSomos {
@@ -824,8 +823,8 @@ main .principal .principal1 .btnPrincipal:hover {
   .contenedorQuienesSomos {
     position: relative;
     width: 100%;
-    background: #395CAD;
-    background: linear-gradient(0deg, rgba(252, 252, 247, 1) 40%, rgba(58, 93, 174, 1) 40%);
+    background: #C70039;
+    background: linear-gradient(0deg, rgba(252, 252, 247, 1) 40%, rgba(199, 0, 57, 1) 40%);
   }
   
   .contenedorQuienesSomos::before {
@@ -1159,7 +1158,7 @@ main .principal .principal1 .btnPrincipal:hover {
   }
 
   .contenedorQueHacemos .contenidoQueHacemos .contenedorTrabajos .trabajos li {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .contenedorQuienesSomos .contenidoQuienesSomos .presentacion {
