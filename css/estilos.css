@@ -218,7 +218,7 @@ main .principal .principal1 .textPrincipal.show {
   color: #25282A;
   text-align: center;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 28px;
   opacity: 1;
 
   /* Desplazamiento horizontal, desplazamiento vertical, desenfoque y color de la sombra */
@@ -764,7 +764,7 @@ main .principal .principal1 .btnPrincipal:hover {
 
   /* MAIN */
   main .principal .principal1 .textPrincipal.show {
-    font-size: 45px;
+    font-size: 40px;
   }
 
   /* CONTACTO */
@@ -974,7 +974,7 @@ main .principal .principal1 .btnPrincipal:hover {
   }
 
   header .navBar .navBarMenu {
-    width: 60%;
+    width: 65%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -984,7 +984,7 @@ main .principal .principal1 .btnPrincipal:hover {
   }
 
   header .navBar div img {
-    width: 200px;
+    width: 190px;
   }
 
   header .navBar a {
@@ -1074,7 +1074,7 @@ main .principal .principal1 .btnPrincipal:hover {
 
   main .principal .principal1 .textPrincipal.show {
     text-align: left;
-    font-size: 55px;
+    font-size: 50px;
   }
 
   main .principal .principal1 .logotipoH1 {
@@ -1204,6 +1204,10 @@ main .principal .principal1 .btnPrincipal:hover {
 /* Bootstrap breakpoints LG y superiores */
 @media (min-width: 1200px) {
   /* Tus estilos para dispositivos extra large y superiores van aquí */
+
+  header .navBar .navBarMenu {
+    width: 60%;
+  }
 
   /*  QUIENES SOMOS */
 
