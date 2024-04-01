@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     line2MainElement.textContent = "";
 
     // Define la velocidad de la animación
-    const typingSpeed = 75; // Ajusta la velocidad según tu preferencia
+    const typingSpeed = 60; // Ajusta la velocidad según tu preferencia
 
     // Aplica la animación a cada elemento
     typeWriter(line1MainElement, line1Text, typingSpeed, function () {
