@@ -83,7 +83,8 @@
 .contenedorPortfolio .contenidoPortfolio .pulsoAmbiental .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .unicefPlanea .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .farnIaf .cintilloTarjeta h6,
-.contenedorPortfolio .contenidoPortfolio .matedulab .cintilloTarjeta h6 {
+.contenedorPortfolio .contenidoPortfolio .matedulab .cintilloTarjeta h6,
+.contenedorPortfolio .contenidoPortfolio .fundHuespedPrevencion .cintilloTarjeta h6{
     background-color: #FFB100;
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
@@ -96,7 +97,8 @@
 
 .contenedorPortfolio .contenidoPortfolio .ratzkierArquitectura .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .arqAs .cintilloTarjeta h6,
-.contenedorPortfolio .contenidoPortfolio .epicaServiciosTuristicos .cintilloTarjeta h6 {
+.contenedorPortfolio .contenidoPortfolio .epicaServiciosTuristicos .cintilloTarjeta h6,
+.contenedorPortfolio .contenidoPortfolio .visionOsedeiv .cintilloTarjeta h6 {
     background-color: #006C67;
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
@@ -109,7 +111,9 @@
 
 .contenedorPortfolio .contenidoPortfolio .estiloPropio .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .huespedSexualidad .cintilloTarjeta h6,
-.contenedorPortfolio .contenidoPortfolio .huespedVacunas .cintilloTarjeta h6 {
+.contenedorPortfolio .contenidoPortfolio .huespedVacunas .cintilloTarjeta h6,
+.contenedorPortfolio .contenidoPortfolio .unicefCrianza .cintilloTarjeta h6
+{
     background-color: #E20034;
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
