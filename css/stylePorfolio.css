@@ -84,7 +84,7 @@
 .contenedorPortfolio .contenidoPortfolio .unicefPlanea .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .farnIaf .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .matedulab .cintilloTarjeta h6,
-.contenedorPortfolio .contenidoPortfolio .fundHuespedPrevencion .cintilloTarjeta h6{
+.contenedorPortfolio .contenidoPortfolio .fundHuespedPrevencion .cintilloTarjeta h6 {
     background-color: #FFB100;
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
@@ -112,8 +112,7 @@
 .contenedorPortfolio .contenidoPortfolio .estiloPropio .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .huespedSexualidad .cintilloTarjeta h6,
 .contenedorPortfolio .contenidoPortfolio .huespedVacunas .cintilloTarjeta h6,
-.contenedorPortfolio .contenidoPortfolio .unicefCrianza .cintilloTarjeta h6
-{
+.contenedorPortfolio .contenidoPortfolio .unicefCrianza .cintilloTarjeta h6 {
     background-color: #E20034;
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
@@ -122,24 +121,26 @@
     padding: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    }
+}
 
 .contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta {
     text-align: center;
-    }
+}
 
-.contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta h5{
+.contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta h5 {
     font-size: 30px;
-    font-family: 'Sora', sans-serif; 
+    font-family: 'Sora', sans-serif;
     font-weight: 600;
 }
 
 .contenedorPortfolio .contenidoPortfolio .tarjeta .imgTarjeta {
     padding: 20px;
 }
-.contenedorPortfolio .contenidoPortfolio .tarjeta .imgTarjeta img{
+
+.contenedorPortfolio .contenidoPortfolio .tarjeta .imgTarjeta img {
     border-radius: 5px;
 }
+
 /* MODAL */
 
 .modal-title a {
@@ -147,6 +148,7 @@
     text-decoration: none;
     color: #222223;
 }
+
 .modal-title a:hover {
     font-weight: 600;
     text-decoration: none;
@@ -209,10 +211,16 @@
         font-size: 13px;
     }
 
-    .contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta h5{
+    .contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta h5 {
         font-size: 19px;
-        }
-    
+    }
+
+    #fundHuesPrevencion .modal-md-custom, 
+    #unicefCrianza .modal-md-custom,
+    #visionOsedeiv .modal-md-custom{
+        max-width: 650px !important;
+    }
+
 }
 
 /* Entre 992px y 1199px */
@@ -241,11 +249,12 @@
         font-size: 12px;
     }
 
-    .contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta h5{
+    .contenedorPortfolio .contenidoPortfolio .tarjeta .tituloTarjeta h5 {
         font-size: 22px;
     }
 
-    .contenedorPortfolio .contenidoPortfolio .ratzkierArquitectura .tituloTarjeta h5, .contenedorPortfolio .contenidoPortfolio .epicaServiciosTuristicos .tituloTarjeta h5{
+    .contenedorPortfolio .contenidoPortfolio .ratzkierArquitectura .tituloTarjeta h5,
+    .contenedorPortfolio .contenidoPortfolio .epicaServiciosTuristicos .tituloTarjeta h5 {
         font-size: 18px;
     }
 
